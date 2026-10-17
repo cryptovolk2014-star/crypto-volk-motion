@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Crypto Volk / Scan AI — vertical, audio-synchronized gold analysis motion film",
   "scripts": {
+    "prepare:brand": "node scripts/prepare-brand.mjs",
+    "check": "node scripts/check-motion.mjs",
     "start": "node server.mjs",
     "render": "node render.mjs",
     "stills": "node render.mjs --stills"
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/cryptovolk2014-star/crypto-volk-motion#readme",
   "devDependencies": {
-    "playwright-core": "^1.64.1"
+    "playwright-core": "^1.64.1",
+    "pngjs": "^7.0.0"
   }
 }

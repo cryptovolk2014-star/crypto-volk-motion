@@ -1,0 +1,24 @@
+[
+  {
+    "path": "assets/brand/clean/cryptovolk-logo.png",
+    "source": "assets/brand/cryptovolk-trade.png",
+    "source_sha256": "6540661241532e298a443e3c3a56798440a6b2f31628ffd018ba98e92127a040",
+    "sha256": "f0acb184167afb6874f002b3286fddcddcfd0c37a4ba78b909856db747c5051d",
+    "width": 898,
+    "height": 874,
+    "transparent_pixels": 629104,
+    "antialiased_pixels": 607,
+    "method": "Flat navy matte removed; antialiased edges unmatted; content bounds cropped with 20px transparent padding."
+  },
+  {
+    "path": "assets/brand/clean/scan-ai-plate.png",
+    "source": "assets/brand/scan-ai-banner.png",
+    "source_sha256": "a3e7f866c8ab6424b2adab97b355a207c4d26082f3862e599c43aaa524f29687",
+    "sha256": "4c420c3ddf3674c730ea0973de13df892999790d5e1aaeff5ea2c527c59f2675",
+    "width": 2075,
+    "height": 467,
+    "transparent_pixels": 27229,
+    "antialiased_pixels": 119296,
+    "method": "Rounded contour (78,149)-(2097,560), radius 106; transparent outside; original plate interior preserved; 28px fading neon halo."
+  }
+]
