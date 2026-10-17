@@ -1,0 +1,19 @@
+{
+  "duration": 25.156,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "audio": "assets/voiceover.mp3",
+  "scenes": [
+    {"start": 0, "end": 2.72, "subject": "График золота", "accent": "ЗОЛОТО. Что дальше?"},
+    {"start": 2.72, "end": 5.56, "subject": "Два направления", "accent": "ВВЕРХ или ВНИЗ?"},
+    {"start": 5.56, "end": 8.42, "subject": "AI-анализ", "accent": "ВЗГЛЯД ИНТЕЛЛЕКТА."},
+    {"start": 8.42, "end": 11.58, "subject": "Выбор золота в Telegram-боте", "accent": "Scan AI"},
+    {"start": 11.58, "end": 15.28, "subject": "Сценарии и ключевые уровни", "accent": "СЦЕНАРИИ. УРОВНИ."},
+    {"start": 15.28, "end": 18.52, "subject": "Проверка на собственном активе", "accent": "ТВОЙ АКТИВ. ТВОЯ ПРОВЕРКА."},
+    {"start": 18.52, "end": 22.15, "subject": "Три бесплатных сигнала новым пользователям", "accent": "3 БЕСПЛАТНЫХ СИГНАЛА"},
+    {"start": 22.15, "end": 25.156, "subject": "Сравнение со своим анализом", "accent": "ПОПРОБУЙ. И СРАВНИ."}
+  ],
+  "data_note": "Графики и элементы интерфейса — дизайнерская иллюстрация, не реальные котировки и не снимки работающего бота.",
+  "branding_status": "Original PNG files extracted byte-for-byte from user-provided archive and used in scenes 4 and 8. Hashes recorded in assets/brand/manifest.json."
+}

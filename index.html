@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Crypto Volk — Scan AI / Gold</title>
+  <style>
+    @font-face{font-family:Montserrat;src:url('assets/fonts/Montserrat.ttf');font-weight:100 900}
+    @font-face{font-family:RobotoMono;src:url('assets/fonts/RobotoMono.ttf');font-weight:100 900}
+    *{box-sizing:border-box}body{margin:0;background:#050718;color:#f3efe9;font-family:Montserrat,sans-serif;display:grid;place-items:center;min-height:100vh}
+    main{display:flex;gap:48px;align-items:center;padding:24px}canvas{height:min(88vh,960px);width:auto;aspect-ratio:9/16;box-shadow:0 25px 100px #0008;border:1px solid #26263f;border-radius:12px}
+    aside{width:280px}h1{font-size:35px;letter-spacing:-1.5px;margin:16px 0}p{color:#969ab5;line-height:1.7;font-size:13px}small{color:#5fcdc9;font:11px RobotoMono;letter-spacing:2px}button,a{font:600 12px Montserrat;cursor:pointer;border:1px solid #40415b;border-radius:30px;background:#15172c;color:#f3efe9;padding:15px 23px;display:inline-block;text-decoration:none;margin:8px 0}button:hover,a:hover{border-color:#5fcdc9}input{width:100%;accent-color:#7a52ee;margin-top:20px}.time{font:11px RobotoMono;color:#969ab5;margin-top:8px}
+    @media(max-width:800px){main{flex-direction:column;gap:20px;padding:12px}canvas{height:76vh}aside{width:100%;max-width:380px}h1{font-size:23px}}
+    body.render{display:block;overflow:hidden}body.render main{display:block;padding:0}body.render canvas{width:1080px;height:1920px;border:0;border-radius:0;box-shadow:none}body.render aside{display:none}
+  </style>
+</head>
+<body><main><canvas id="film" width="1080" height="1920" aria-label="Вертикальный ролик Crypto Volk, анализ золота"></canvas><aside>
+  <small>CRYPTO VOLK / MOTION 001</small><h1>Золото.<br>Взгляд AI.</h1><p>Scan AI · анализ рынка в Telegram.<br>Вертикальный motion design, 25 секунд.</p>
+  <button id="play">Воспроизвести со звуком</button><br><a href="output/crypto-volk-motion-final.mp4" download>Скачать MP4</a><input id="seek" type="range" min="0" max="25.156" step="0.01" value="0" aria-label="Позиция воспроизведения"><div id="time" class="time">00:00 / 00:25</div>
+</aside></main><audio id="voice" src="assets/voiceover.mp3" preload="auto"></audio><script src="motion.js"></script></body></html>

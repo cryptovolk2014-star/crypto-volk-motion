@@ -1,0 +1,11 @@
+node_modules/
+.npm-cache/
+.cache/
+tmp/
+*.log
+*.tmp
+*.zip
+.DS_Store
+output/*
+!output/crypto-volk-motion-final.mp4
+__pycache__/

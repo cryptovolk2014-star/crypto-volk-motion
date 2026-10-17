@@ -1,0 +1,22 @@
+[
+  {
+    "source_archive_entry": "Telegram_Avatar_Trade.png",
+    "path": "assets/brand/cryptovolk-trade.png",
+    "width": 1200,
+    "height": 1200,
+    "mode": "RGBA",
+    "sha256": "6540661241532e298a443e3c3a56798440a6b2f31628ffd018ba98e92127a040",
+    "bytes": 109963,
+    "byte_identical_to_archive": true
+  },
+  {
+    "source_archive_entry": "Неоновый баннер Scan AI.png",
+    "path": "assets/brand/scan-ai-banner.png",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGB",
+    "sha256": "a3e7f866c8ab6424b2adab97b355a207c4d26082f3862e599c43aaa524f29687",
+    "bytes": 1433790,
+    "byte_identical_to_archive": true
+  }
+]
