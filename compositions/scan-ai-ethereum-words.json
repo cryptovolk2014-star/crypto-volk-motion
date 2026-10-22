@@ -1,0 +1,422 @@
+{
+  "audio": "assets/audio/scan-ai-ethereum.mp3",
+  "audio_sha256": "11def07a78f97e6721b8d4a8cc006e2d05e0b72299e2cd5ab0b9625986f9054f",
+  "decoded_audio_duration": 33.41061224489796,
+  "asr_time_grid_seconds": 0.04,
+  "method": "Independent Russian CTC character timestamps from the NEW recording, canonical names Ethereum / ETH / AI restored. Acoustic grid 40 ms; animation sampled at 30 fps. No prior composition timestamps reused.",
+  "script_source": "Transcribed from the newly uploaded voice recording; product statements and the offer wording come from this recording.",
+  "words": [
+    {
+      "word": "хватит",
+      "start": 0.2,
+      "end": 0.56
+    },
+    {
+      "word": "слепо",
+      "start": 0.68,
+      "end": 0.96
+    },
+    {
+      "word": "верить",
+      "start": 1.08,
+      "end": 1.36
+    },
+    {
+      "word": "торговым",
+      "start": 1.44,
+      "end": 1.8
+    },
+    {
+      "word": "сигналам",
+      "start": 1.92,
+      "end": 2.32
+    },
+    {
+      "word": "по",
+      "start": 2.4,
+      "end": 2.48
+    },
+    {
+      "word": "Ethereum",
+      "start": 2.6,
+      "end": 3.08
+    },
+    {
+      "word": "лучше",
+      "start": 3.48,
+      "end": 3.72
+    },
+    {
+      "word": "посмотри",
+      "start": 3.84,
+      "end": 4.28
+    },
+    {
+      "word": "до",
+      "start": 4.4,
+      "end": 4.48
+    },
+    {
+      "word": "чего",
+      "start": 4.56,
+      "end": 4.76
+    },
+    {
+      "word": "дошли",
+      "start": 4.88,
+      "end": 5.12
+    },
+    {
+      "word": "технологии",
+      "start": 5.24,
+      "end": 5.84
+    },
+    {
+      "word": "мы",
+      "start": 6.28,
+      "end": 6.36
+    },
+    {
+      "word": "создали",
+      "start": 6.52,
+      "end": 6.92
+    },
+    {
+      "word": "AI-бота",
+      "start": 7.08,
+      "end": 7.84
+    },
+    {
+      "word": "который",
+      "start": 8.04,
+      "end": 8.4
+    },
+    {
+      "word": "самостоятельно",
+      "start": 8.48,
+      "end": 9.28
+    },
+    {
+      "word": "анализирует",
+      "start": 9.36,
+      "end": 9.92
+    },
+    {
+      "word": "ETH",
+      "start": 10.04,
+      "end": 10.56
+    },
+    {
+      "word": "и",
+      "start": 10.76,
+      "end": 10.8
+    },
+    {
+      "word": "предлагает",
+      "start": 10.88,
+      "end": 11.4
+    },
+    {
+      "word": "конкретный",
+      "start": 11.52,
+      "end": 12.04
+    },
+    {
+      "word": "сценарий",
+      "start": 12.12,
+      "end": 12.56
+    },
+    {
+      "word": "сделки",
+      "start": 12.68,
+      "end": 13.0
+    },
+    {
+      "word": "и",
+      "start": 13.36,
+      "end": 13.4
+    },
+    {
+      "word": "это",
+      "start": 13.48,
+      "end": 13.6
+    },
+    {
+      "word": "уже",
+      "start": 13.68,
+      "end": 13.84
+    },
+    {
+      "word": "не",
+      "start": 13.92,
+      "end": 14.0
+    },
+    {
+      "word": "просто",
+      "start": 14.04,
+      "end": 14.32
+    },
+    {
+      "word": "эксперимент",
+      "start": 14.4,
+      "end": 14.96
+    },
+    {
+      "word": "с",
+      "start": 15.28,
+      "end": 15.32
+    },
+    {
+      "word": "нашим",
+      "start": 15.4,
+      "end": 15.68
+    },
+    {
+      "word": "ботом",
+      "start": 15.8,
+      "end": 16.08
+    },
+    {
+      "word": "работают",
+      "start": 16.16,
+      "end": 16.52
+    },
+    {
+      "word": "более",
+      "start": 16.6,
+      "end": 16.88
+    },
+    {
+      "word": "двадцати",
+      "start": 16.96,
+      "end": 17.44
+    },
+    {
+      "word": "тысяч",
+      "start": 17.6,
+      "end": 17.88
+    },
+    {
+      "word": "человек",
+      "start": 18.04,
+      "end": 18.44
+    },
+    {
+      "word": "но",
+      "start": 18.92,
+      "end": 19.0
+    },
+    {
+      "word": "самое",
+      "start": 19.16,
+      "end": 19.44
+    },
+    {
+      "word": "интересное",
+      "start": 19.52,
+      "end": 20.12
+    },
+    {
+      "word": "тебе",
+      "start": 20.36,
+      "end": 20.52
+    },
+    {
+      "word": "не",
+      "start": 20.68,
+      "end": 20.76
+    },
+    {
+      "word": "нужно",
+      "start": 20.84,
+      "end": 21.08
+    },
+    {
+      "word": "верить",
+      "start": 21.2,
+      "end": 21.44
+    },
+    {
+      "word": "нам",
+      "start": 21.52,
+      "end": 21.64
+    },
+    {
+      "word": "на",
+      "start": 21.76,
+      "end": 21.84
+    },
+    {
+      "word": "слово",
+      "start": 21.92,
+      "end": 22.16
+    },
+    {
+      "word": "мы",
+      "start": 22.48,
+      "end": 22.6
+    },
+    {
+      "word": "даём",
+      "start": 22.72,
+      "end": 22.96
+    },
+    {
+      "word": "три",
+      "start": 23.08,
+      "end": 23.2
+    },
+    {
+      "word": "бесплатных",
+      "start": 23.32,
+      "end": 23.88
+    },
+    {
+      "word": "сигнала",
+      "start": 24.0,
+      "end": 24.36
+    },
+    {
+      "word": "чтобы",
+      "start": 24.52,
+      "end": 24.8
+    },
+    {
+      "word": "ты",
+      "start": 24.92,
+      "end": 25.0
+    },
+    {
+      "word": "сам",
+      "start": 25.08,
+      "end": 25.2
+    },
+    {
+      "word": "проверил",
+      "start": 25.28,
+      "end": 25.72
+    },
+    {
+      "word": "возможности",
+      "start": 25.84,
+      "end": 26.4
+    },
+    {
+      "word": "AI",
+      "start": 26.6,
+      "end": 27.04
+    },
+    {
+      "word": "не",
+      "start": 27.52,
+      "end": 27.6
+    },
+    {
+      "word": "гадай",
+      "start": 27.72,
+      "end": 28.0
+    },
+    {
+      "word": "на",
+      "start": 28.12,
+      "end": 28.2
+    },
+    {
+      "word": "что",
+      "start": 28.24,
+      "end": 28.36
+    },
+    {
+      "word": "способен",
+      "start": 28.44,
+      "end": 28.8
+    },
+    {
+      "word": "искусственный",
+      "start": 28.88,
+      "end": 29.52
+    },
+    {
+      "word": "интеллект",
+      "start": 29.6,
+      "end": 30.08
+    },
+    {
+      "word": "получи",
+      "start": 30.4,
+      "end": 30.72
+    },
+    {
+      "word": "три",
+      "start": 30.88,
+      "end": 31.0
+    },
+    {
+      "word": "бесплатных",
+      "start": 31.08,
+      "end": 31.6
+    },
+    {
+      "word": "сигнала",
+      "start": 31.72,
+      "end": 32.08
+    },
+    {
+      "word": "и",
+      "start": 32.32,
+      "end": 32.36
+    },
+    {
+      "word": "убедись",
+      "start": 32.44,
+      "end": 32.88
+    },
+    {
+      "word": "сам",
+      "start": 33.0,
+      "end": 33.2
+    }
+  ],
+  "phrases": [
+    {
+      "id": "problem",
+      "start": 0.2,
+      "end": 3.08
+    },
+    {
+      "id": "technology",
+      "start": 3.48,
+      "end": 5.84
+    },
+    {
+      "id": "phone-demo",
+      "start": 6.28,
+      "end": 13
+    },
+    {
+      "id": "social-proof",
+      "start": 13.36,
+      "end": 18.44
+    },
+    {
+      "id": "try-yourself",
+      "start": 18.92,
+      "end": 22.16
+    },
+    {
+      "id": "free-offer",
+      "start": 22.48,
+      "end": 27.04
+    },
+    {
+      "id": "ai-potential",
+      "start": 27.52,
+      "end": 30.08
+    },
+    {
+      "id": "cta",
+      "start": 30.4,
+      "end": 33.2
+    }
+  ]
+}

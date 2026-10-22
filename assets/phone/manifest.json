@@ -1,0 +1,13 @@
+{
+  "provenance": "New photorealistic image-generation production layers. Uploaded images used only as camera/hand-pose references; their interface, lettering, background and third-party-looking mark are not used in the film. Blank screen receives deterministic native-font canvas UI. Original Crypto Volk logos remain unchanged.",
+  "assets": [
+    {
+      "path": "assets/phone/left-hand-iphone.png",
+      "sha256": "466526ad2b26e30d2fb588964126d9e94694c88d86c5bb562670a22d3fcdbbb0"
+    },
+    {
+      "path": "assets/phone/right-hand-tap.png",
+      "sha256": "211459bc904d125732e730423154a04449dd6364131ceae0528818e3e6462e21"
+    }
+  ]
+}

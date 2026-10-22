@@ -1,5 +1,5 @@
 const params=new URLSearchParams(location.search),id=params.get('composition')||'scan-ai-product';
-const allowed=new Set(['scan-ai-product','scan-ai-clarity']);
+const allowed=new Set(['scan-ai-product','scan-ai-clarity','scan-ai-ethereum']);
 if(!allowed.has(id))throw new Error('Unknown composition');
 if(params.has('render'))document.body.classList.add('render');
 window.filmReady=(async()=>{

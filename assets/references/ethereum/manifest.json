@@ -1,0 +1,23 @@
+{
+  "usage": "User references for camera angle and hand movement only. Do not copy the reference interface.",
+  "files": [
+    {
+      "original_name": "Криптотрейдинг на ладони.png",
+      "path": "assets/references/ethereum/phone-reference-1.png",
+      "bytes": 1984110,
+      "sha256": "0a3a6cc18a2164bc783bccc61e5035d391877b6995d136e740d53f2466b8d51c"
+    },
+    {
+      "original_name": "Криптотрейдинг на смартфоне.png",
+      "path": "assets/references/ethereum/phone-reference-2.png",
+      "bytes": 1886938,
+      "sha256": "76564bc96c3ef043ad67169a51fc2dc3b8305de3ee0d26a97ee91915af6940a6"
+    },
+    {
+      "original_name": "ElevenLabs_2026-10-22T20_00_52_ггггг_ivc_sp100_s50_sb75_v4.mp3",
+      "path": "assets/audio/scan-ai-ethereum.mp3",
+      "bytes": 551506,
+      "sha256": "11def07a78f97e6721b8d4a8cc006e2d05e0b72299e2cd5ab0b9625986f9054f"
+    }
+  ]
+}

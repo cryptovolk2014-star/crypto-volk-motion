@@ -14,7 +14,11 @@
     "stills:clarity": "node scripts/render-composition.mjs --composition=scan-ai-clarity --stills",
     "render:clarity": "node scripts/render-composition.mjs --composition=scan-ai-clarity",
     "check:clarity": "node scripts/check-clarity.mjs",
-    "check:clarity:media": "node scripts/check-clarity-media.mjs"
+    "check:clarity:media": "node scripts/check-clarity-media.mjs",
+    "stills:ethereum": "node scripts/render-composition.mjs --composition=scan-ai-ethereum --stills",
+    "render:ethereum": "node scripts/render-composition.mjs --composition=scan-ai-ethereum",
+    "check:ethereum": "node scripts/check-ethereum.mjs",
+    "check:ethereum:media": "node scripts/check-ethereum-media.mjs"
   },
   "repository": {
     "type": "git",

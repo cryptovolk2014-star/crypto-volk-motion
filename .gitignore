@@ -30,3 +30,14 @@ output/scan-ai-clarity/*
 !output/scan-ai-clarity/validation.json
 !output/scan-ai-clarity/media-validation.json
 !output/scan-ai-clarity/[0-9][0-9]-*.png
+
+# Separate Ethereum composition: final media and key previews only.
+!output/crypto-volk-scan-ai-ethereum.mp4
+!output/scan-ai-ethereum/
+output/scan-ai-ethereum/*
+!output/scan-ai-ethereum/contact-sheet.jpg
+!output/scan-ai-ethereum/dark-light-transition.jpg
+!output/scan-ai-ethereum/phone-journey.jpg
+!output/scan-ai-ethereum/validation.json
+!output/scan-ai-ethereum/media-validation.json
+!output/scan-ai-ethereum/[0-9][0-9]-*.png

@@ -11,9 +11,11 @@ export function drawTradingChart(E,box,{time=0,setup=DEMO_SETUP,progress=1,level
  const zone=(range,start,col)=>{const yy=py(range[1]),hh=py(range[0])-yy;ctx.fillStyle=col+'24';rounded(x+pw*start,yy,pw*(1-start),hh,5);ctx.fill();stroke(x+pw*start,yy,x+pw,yy,col+'B0',2);stroke(x+pw*start,yy+hh,x+pw,yy+hh,col+'80',1.5);};
  if(fvg)zone(setup.fvg,.48,C.cyan);if(orderBlock)zone(setup.orderBlock,.12,C.violet);
  const count=Math.max(1,Math.ceil(closes.length*clamp(progress))),points=[];
+ const unit=(setup.targets[0]-setup.entry)/1000,mapPrice=v=>setup===DEMO_SETUP?v:setup.entry+(v-100000)*unit;
  for(let i=0;i<count;i++){let close=closes[i],open=closes[Math.max(i-1,0)],high=Math.max(close,open)+120,low=Math.min(close,open)-100;
   if(i===13){open=100080;close=100240;high=100300;low=100020;}if(i===14){open=100240;close=100820;high=100940;low=100180;}if(i===15){open=100820;close=101020;high=101160;low=100620;}
-  if(uncertain){const a=1-smooth((time-2.4)/.3);close+=Math.sin(time*8+i*.9)*180*a;high=Math.max(high,close+100);low=Math.min(low,close-100);}
+  close=mapPrice(close);open=mapPrice(open);high=mapPrice(high);low=mapPrice(low);
+  if(uncertain){const a=1-smooth((time-2.4)/.3);close+=Math.sin(time*8+i*.9)*180*unit*a;high=Math.max(high,close+100);low=Math.min(low,close-100);}
   const xx=x+i*pw*.86/(closes.length-1),up=close>=open,color=uncertaintyColors?(up?C.green:C.red):(up?C.cyan:C.violet);stroke(xx,py(high),xx,py(low),color+'DD',2.5);ctx.fillStyle=color;rounded(xx-7,Math.min(py(close),py(open)),14,Math.max(9,Math.abs(py(close)-py(open))),2);ctx.fill();points.push([xx,py(close)]);
  }
  trace(points,C.cyan,2.4,6);const last=points.at(-1);disc(last[0],last[1],6,C.ivory);
