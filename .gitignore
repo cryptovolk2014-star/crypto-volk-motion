@@ -19,3 +19,14 @@ output/scan-ai-product/*
 !output/scan-ai-product/validation.json
 !output/scan-ai-product/media-validation.json
 !output/scan-ai-product/[0-9][0-9]-*.png
+
+# Separate DARK → LIGHT composition: final deliverables only.
+!output/crypto-volk-scan-ai-clarity.mp4
+!output/scan-ai-clarity/
+output/scan-ai-clarity/*
+!output/scan-ai-clarity/contact-sheet.jpg
+!output/scan-ai-clarity/dark-light-transition.jpg
+!output/scan-ai-clarity/product-journey.jpg
+!output/scan-ai-clarity/validation.json
+!output/scan-ai-clarity/media-validation.json
+!output/scan-ai-clarity/[0-9][0-9]-*.png

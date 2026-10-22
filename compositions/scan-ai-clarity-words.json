@@ -1,0 +1,546 @@
+{
+  "audio": "assets/audio/scan-ai-clarity.mp3",
+  "audio_sha256": "2997e291047fc198ab8dc9ed6ef0bbb83124ba6e76ec42e544c2e16eb512c85f",
+  "decoded_audio_duration": 44.51265306122449,
+  "asr_time_grid_seconds": 0.04,
+  "method": "New recording decoded independently; Russian CTC character alignment mapped to the exact supplied script. Character onset grid 40 ms (not sample-accurate phoneme boundaries); visual events rendered at 30 fps. No previous cue timestamps reused.",
+  "words": [
+    {
+      "word": "ты",
+      "start": 0.08,
+      "end": 0.16
+    },
+    {
+      "word": "устал",
+      "start": 0.2,
+      "end": 0.48
+    },
+    {
+      "word": "постоянно",
+      "start": 0.56,
+      "end": 1.12
+    },
+    {
+      "word": "гадать",
+      "start": 1.24,
+      "end": 1.52
+    },
+    {
+      "word": "куда",
+      "start": 1.6,
+      "end": 1.8
+    },
+    {
+      "word": "пойдёт",
+      "start": 1.88,
+      "end": 2.2
+    },
+    {
+      "word": "рынок",
+      "start": 2.32,
+      "end": 2.56
+    },
+    {
+      "word": "один",
+      "start": 2.88,
+      "end": 3.08
+    },
+    {
+      "word": "Telegram",
+      "start": 3.16,
+      "end": 3.64
+    },
+    {
+      "word": "говорит",
+      "start": 3.72,
+      "end": 4.0
+    },
+    {
+      "word": "лонг",
+      "start": 4.2,
+      "end": 4.48
+    },
+    {
+      "word": "второй",
+      "start": 4.76,
+      "end": 5.08
+    },
+    {
+      "word": "шорт",
+      "start": 5.32,
+      "end": 5.64
+    },
+    {
+      "word": "ты",
+      "start": 6.0,
+      "end": 6.08
+    },
+    {
+      "word": "изучил",
+      "start": 6.12,
+      "end": 6.44
+    },
+    {
+      "word": "теханализ",
+      "start": 6.56,
+      "end": 7.24
+    },
+    {
+      "word": "Smart Money",
+      "start": 7.4,
+      "end": 8.2
+    },
+    {
+      "word": "заплатил",
+      "start": 8.28,
+      "end": 8.68
+    },
+    {
+      "word": "за",
+      "start": 8.76,
+      "end": 8.84
+    },
+    {
+      "word": "обучение",
+      "start": 8.92,
+      "end": 9.44
+    },
+    {
+      "word": "а",
+      "start": 9.68,
+      "end": 9.72
+    },
+    {
+      "word": "в",
+      "start": 9.84,
+      "end": 9.88
+    },
+    {
+      "word": "момент",
+      "start": 9.96,
+      "end": 10.24
+    },
+    {
+      "word": "сделки",
+      "start": 10.32,
+      "end": 10.64
+    },
+    {
+      "word": "всё",
+      "start": 10.76,
+      "end": 10.92
+    },
+    {
+      "word": "равно",
+      "start": 11.04,
+      "end": 11.28
+    },
+    {
+      "word": "сомневаешься",
+      "start": 11.36,
+      "end": 12.04
+    },
+    {
+      "word": "и",
+      "start": 12.4,
+      "end": 12.44
+    },
+    {
+      "word": "как",
+      "start": 12.56,
+      "end": 12.68
+    },
+    {
+      "word": "поступить",
+      "start": 12.84,
+      "end": 13.24
+    },
+    {
+      "word": "правильно",
+      "start": 13.32,
+      "end": 13.72
+    },
+    {
+      "word": "в",
+      "start": 13.76,
+      "end": 13.8
+    },
+    {
+      "word": "такой",
+      "start": 13.88,
+      "end": 14.08
+    },
+    {
+      "word": "ситуации",
+      "start": 14.2,
+      "end": 14.64
+    },
+    {
+      "word": "смотри",
+      "start": 15.04,
+      "end": 15.36
+    },
+    {
+      "word": "открываешь",
+      "start": 15.76,
+      "end": 16.28
+    },
+    {
+      "word": "Scan AI",
+      "start": 16.36,
+      "end": 17.16
+    },
+    {
+      "word": "выбираешь",
+      "start": 17.4,
+      "end": 17.88
+    },
+    {
+      "word": "крипту",
+      "start": 17.96,
+      "end": 18.32
+    },
+    {
+      "word": "золото",
+      "start": 18.56,
+      "end": 18.88
+    },
+    {
+      "word": "или",
+      "start": 18.96,
+      "end": 19.12
+    },
+    {
+      "word": "валюту",
+      "start": 19.24,
+      "end": 19.56
+    },
+    {
+      "word": "и",
+      "start": 19.8,
+      "end": 19.84
+    },
+    {
+      "word": "получаешь",
+      "start": 19.96,
+      "end": 20.48
+    },
+    {
+      "word": "готовый",
+      "start": 20.56,
+      "end": 20.96
+    },
+    {
+      "word": "сценарий",
+      "start": 21.04,
+      "end": 21.56
+    },
+    {
+      "word": "вход",
+      "start": 21.84,
+      "end": 22.12
+    },
+    {
+      "word": "стоп",
+      "start": 22.4,
+      "end": 22.72
+    },
+    {
+      "word": "цели",
+      "start": 22.96,
+      "end": 23.28
+    },
+    {
+      "word": "и",
+      "start": 23.56,
+      "end": 23.6
+    },
+    {
+      "word": "полное",
+      "start": 23.72,
+      "end": 24.12
+    },
+    {
+      "word": "объяснение",
+      "start": 24.2,
+      "end": 24.76
+    },
+    {
+      "word": "логики",
+      "start": 24.84,
+      "end": 25.16
+    },
+    {
+      "word": "сетапа",
+      "start": 25.28,
+      "end": 25.68
+    },
+    {
+      "word": "почему",
+      "start": 26.0,
+      "end": 26.28
+    },
+    {
+      "word": "вход",
+      "start": 26.4,
+      "end": 26.6
+    },
+    {
+      "word": "именно",
+      "start": 26.72,
+      "end": 27.08
+    },
+    {
+      "word": "здесь",
+      "start": 27.2,
+      "end": 27.44
+    },
+    {
+      "word": "почему",
+      "start": 27.68,
+      "end": 27.96
+    },
+    {
+      "word": "стоп",
+      "start": 28.04,
+      "end": 28.32
+    },
+    {
+      "word": "там",
+      "start": 28.44,
+      "end": 28.6
+    },
+    {
+      "word": "куда",
+      "start": 28.88,
+      "end": 29.08
+    },
+    {
+      "word": "тянутся",
+      "start": 29.2,
+      "end": 29.6
+    },
+    {
+      "word": "цели",
+      "start": 29.68,
+      "end": 29.96
+    },
+    {
+      "word": "какие",
+      "start": 30.16,
+      "end": 30.44
+    },
+    {
+      "word": "имбалансы",
+      "start": 30.56,
+      "end": 31.2
+    },
+    {
+      "word": "и",
+      "start": 31.32,
+      "end": 31.36
+    },
+    {
+      "word": "ордер-блоки",
+      "start": 31.48,
+      "end": 32.12
+    },
+    {
+      "word": "учитываются",
+      "start": 32.24,
+      "end": 32.88
+    },
+    {
+      "word": "то",
+      "start": 33.16,
+      "end": 33.24
+    },
+    {
+      "word": "есть",
+      "start": 33.32,
+      "end": 33.48
+    },
+    {
+      "word": "ты",
+      "start": 33.56,
+      "end": 33.64
+    },
+    {
+      "word": "одновременно",
+      "start": 33.76,
+      "end": 34.4
+    },
+    {
+      "word": "работаешь",
+      "start": 34.48,
+      "end": 34.88
+    },
+    {
+      "word": "по",
+      "start": 34.96,
+      "end": 35.04
+    },
+    {
+      "word": "готовому",
+      "start": 35.08,
+      "end": 35.44
+    },
+    {
+      "word": "сценарию",
+      "start": 35.52,
+      "end": 36.0
+    },
+    {
+      "word": "и",
+      "start": 36.2,
+      "end": 36.24
+    },
+    {
+      "word": "на",
+      "start": 36.32,
+      "end": 36.4
+    },
+    {
+      "word": "практике",
+      "start": 36.52,
+      "end": 36.96
+    },
+    {
+      "word": "учишься",
+      "start": 37.12,
+      "end": 37.52
+    },
+    {
+      "word": "понимать",
+      "start": 37.6,
+      "end": 38.08
+    },
+    {
+      "word": "рынок",
+      "start": 38.16,
+      "end": 38.44
+    },
+    {
+      "word": "мы",
+      "start": 38.84,
+      "end": 38.92
+    },
+    {
+      "word": "уверены",
+      "start": 39.08,
+      "end": 39.52
+    },
+    {
+      "word": "в",
+      "start": 39.56,
+      "end": 39.6
+    },
+    {
+      "word": "своём",
+      "start": 39.68,
+      "end": 39.92
+    },
+    {
+      "word": "продукте",
+      "start": 40.0,
+      "end": 40.4
+    },
+    {
+      "word": "поэтому",
+      "start": 40.56,
+      "end": 40.92
+    },
+    {
+      "word": "даём",
+      "start": 41.0,
+      "end": 41.24
+    },
+    {
+      "word": "три",
+      "start": 41.4,
+      "end": 41.52
+    },
+    {
+      "word": "сценария",
+      "start": 41.6,
+      "end": 42.08
+    },
+    {
+      "word": "бесплатно",
+      "start": 42.2,
+      "end": 42.8
+    },
+    {
+      "word": "попробуй",
+      "start": 43.08,
+      "end": 43.48
+    },
+    {
+      "word": "и",
+      "start": 43.6,
+      "end": 43.64
+    },
+    {
+      "word": "сам",
+      "start": 43.72,
+      "end": 43.88
+    },
+    {
+      "word": "оцени",
+      "start": 43.96,
+      "end": 44.28
+    }
+  ],
+  "phrases": [
+    {
+      "id": "hook",
+      "start": 0.08,
+      "end": 2.56
+    },
+    {
+      "id": "opinions",
+      "start": 2.88,
+      "end": 5.64
+    },
+    {
+      "id": "knowledge",
+      "start": 6,
+      "end": 12.04
+    },
+    {
+      "id": "question",
+      "start": 12.4,
+      "end": 14.64
+    },
+    {
+      "id": "look",
+      "start": 15.04,
+      "end": 15.36
+    },
+    {
+      "id": "product",
+      "start": 15.76,
+      "end": 25.68
+    },
+    {
+      "id": "logic",
+      "start": 26,
+      "end": 32.88
+    },
+    {
+      "id": "learning",
+      "start": 33.16,
+      "end": 38.44
+    },
+    {
+      "id": "free",
+      "start": 38.84,
+      "end": 42.8
+    },
+    {
+      "id": "cta",
+      "start": 43.08,
+      "end": 44.28
+    }
+  ]
+}

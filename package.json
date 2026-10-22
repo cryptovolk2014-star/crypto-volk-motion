@@ -1,7 +1,7 @@
 {
   "name": "crypto-volk-motion",
   "version": "1.0.0",
-  "description": "Crypto Volk / Scan AI — vertical, audio-synchronized gold analysis motion film",
+  "description": "Crypto Volk / Scan AI \u2014 vertical, audio-synchronized gold analysis motion film",
   "scripts": {
     "prepare:brand": "node scripts/prepare-brand.mjs",
     "check": "node scripts/check-motion.mjs",
@@ -10,7 +10,11 @@
     "stills": "node render.mjs --stills",
     "stills:product": "node scripts/render-composition.mjs --composition=scan-ai-product --stills",
     "render:product": "node scripts/render-composition.mjs --composition=scan-ai-product",
-    "check:product": "node scripts/check-composition.mjs --composition=scan-ai-product"
+    "check:product": "node scripts/check-composition.mjs --composition=scan-ai-product",
+    "stills:clarity": "node scripts/render-composition.mjs --composition=scan-ai-clarity --stills",
+    "render:clarity": "node scripts/render-composition.mjs --composition=scan-ai-clarity",
+    "check:clarity": "node scripts/check-clarity.mjs",
+    "check:clarity:media": "node scripts/check-clarity-media.mjs"
   },
   "repository": {
     "type": "git",

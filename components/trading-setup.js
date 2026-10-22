@@ -5,28 +5,28 @@ export const DEMO_SETUP=Object.freeze({asset:'BTC/USDT',market:'CRYPTO',side:'LO
 export function validateSetup(s){return s.side==='LONG'&&s.stop<s.entry&&s.targets.every((p,i)=>p>s.entry&&(i===0||p>s.targets[i-1]))&&s.stop<s.orderBlock[0]&&s.orderBlock[1]<s.entry&&s.entry<s.fvg[0]&&s.fvg[1]<s.targets[0];}
 export const price=n=>new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}).format(n).replaceAll('\u202f',' ');
 const closes=[100500,100250,100450,100000,99600,99400,99700,99950,100200,99900,99800,100150,100420,100240,100820,101020,100820,100540,100180,100000,100080,100050];
-export function drawTradingChart(E,box,{time=0,setup=DEMO_SETUP,progress=1,levels=0,active='',fvg=false,orderBlock=false,labels=true,labelSpace=labels?195:0,scan=false,uncertain=false}={}){
- const {ctx,stroke,rounded,disc,trace,tag}=E,{x,y,w,h}=box,pw=w-labelSpace,py=value=>y+h*(setup.max-value)/(setup.max-setup.min);
- for(let j=0;j<=4;j++)stroke(x,y+j*h/4,x+pw,y+j*h/4,'#A8BBD022');for(let j=0;j<=6;j++)stroke(x+j*pw/6,y,x+j*pw/6,y+h,'#A8BBD019');
+export function drawTradingChart(E,box,{time=0,setup=DEMO_SETUP,progress=1,levels=0,active='',fvg=false,orderBlock=false,labels=true,labelSpace=labels?195:0,scan=false,uncertain=false,uncertaintyColors=false,activeLabelsOnly=false}={}){
+ const {ctx,C,stroke,rounded,disc,trace,tag}=E,{x,y,w,h}=box,pw=w-labelSpace,py=value=>y+h*(setup.max-value)/(setup.max-setup.min);
+ for(let j=0;j<=4;j++)stroke(x,y+j*h/4,x+pw,y+j*h/4,E.getTheme()==='light'?'#24365328':'#A8BBD022');for(let j=0;j<=6;j++)stroke(x+j*pw/6,y,x+j*pw/6,y+h,E.getTheme()==='light'?'#24365320':'#A8BBD019');
  const zone=(range,start,col)=>{const yy=py(range[1]),hh=py(range[0])-yy;ctx.fillStyle=col+'24';rounded(x+pw*start,yy,pw*(1-start),hh,5);ctx.fill();stroke(x+pw*start,yy,x+pw,yy,col+'B0',2);stroke(x+pw*start,yy+hh,x+pw,yy+hh,col+'80',1.5);};
  if(fvg)zone(setup.fvg,.48,C.cyan);if(orderBlock)zone(setup.orderBlock,.12,C.violet);
  const count=Math.max(1,Math.ceil(closes.length*clamp(progress))),points=[];
  for(let i=0;i<count;i++){let close=closes[i],open=closes[Math.max(i-1,0)],high=Math.max(close,open)+120,low=Math.min(close,open)-100;
   if(i===13){open=100080;close=100240;high=100300;low=100020;}if(i===14){open=100240;close=100820;high=100940;low=100180;}if(i===15){open=100820;close=101020;high=101160;low=100620;}
   if(uncertain){const a=1-smooth((time-2.4)/.3);close+=Math.sin(time*8+i*.9)*180*a;high=Math.max(high,close+100);low=Math.min(low,close-100);}
-  const xx=x+i*pw*.86/(closes.length-1),up=close>=open,color=up?C.cyan:C.violet;stroke(xx,py(high),xx,py(low),color+'DD',2.5);ctx.fillStyle=color;rounded(xx-7,Math.min(py(close),py(open)),14,Math.max(9,Math.abs(py(close)-py(open))),2);ctx.fill();points.push([xx,py(close)]);
+  const xx=x+i*pw*.86/(closes.length-1),up=close>=open,color=uncertaintyColors?(up?C.green:C.red):(up?C.cyan:C.violet);stroke(xx,py(high),xx,py(low),color+'DD',2.5);ctx.fillStyle=color;rounded(xx-7,Math.min(py(close),py(open)),14,Math.max(9,Math.abs(py(close)-py(open))),2);ctx.fill();points.push([xx,py(close)]);
  }
  trace(points,C.cyan,2.4,6);const last=points.at(-1);disc(last[0],last[1],6,C.ivory);
  const list=[{p:setup.entry,s:'ENTRY',c:C.cyan,id:'entry'},{p:setup.stop,s:'STOP',c:C.red,id:'stop'},...setup.targets.map((p,i)=>({p,s:`TP ${i+1}`,c:i?C.cyan:C.green,id:'targets'}))];
- for(let i=0;i<Math.min(levels,list.length);i++){let l=list[i],yy=py(l.p),isActive=l.id===active;ctx.save();ctx.setLineDash([12,9]);stroke(x,yy,x+pw,yy,l.c+(isActive?'DD':'88'),isActive?3:1.7);ctx.restore();if(labels)tag(l.s,x+pw+15,yy-29,177,l.c,{size:36,height:58});}
+ for(let i=0;i<Math.min(levels,list.length);i++){let l=list[i],yy=py(l.p),isActive=l.id===active;ctx.save();ctx.setLineDash([12,9]);stroke(x,yy,x+pw,yy,l.c+(isActive?'DD':'88'),isActive?3:1.7);ctx.restore();if(labels&&(!activeLabelsOnly||l.id===active))tag(l.s,x+pw+15,yy-29,177,l.c,{size:36,height:58});}
  if(scan){const sx=x+((time*1.1)%1)*pw;ctx.save();ctx.beginPath();ctx.rect(x,y,pw,h);ctx.clip();const g=ctx.createLinearGradient(sx-145,0,sx,0);g.addColorStop(0,'#5FCDC900');g.addColorStop(1,'#5FCDC92C');ctx.fillStyle=g;ctx.fillRect(sx-145,y,145,h);stroke(sx,y,sx,y+h,C.cyan,2);ctx.restore();}
  return {py,last,plotWidth:pw};
 }
 export function token3D(E,x,y,r,symbol,color,t=0){const {ctx,disc,stroke,type}=E;ctx.save();ctx.translate(x,y);const yaw=.16*Math.sin(Math.min(t,1.2)*1.2);ctx.rotate(-.08+.06*reveal(t));ctx.scale(Math.cos(yaw),1);disc(7,7,r,'#151C32');const g=ctx.createLinearGradient(-r,-r,r,r);g.addColorStop(0,color);g.addColorStop(.38,'#FFFFFF');g.addColorStop(.42,color);g.addColorStop(1,'#20223F');ctx.shadowBlur=35;ctx.shadowColor=color+'55';disc(0,0,r,g);ctx.shadowBlur=0;ctx.strokeStyle='#FFFFFF66';ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,0,r*.86,0,Math.PI*2);ctx.stroke();type(symbol,0,19,Math.max(44,r*.75),'#102036',800,{align:'center'});ctx.restore();}
-export function cursor(E,x,y,click=0){const {ctx,disc}=E;ctx.save();ctx.translate(x,y);ctx.shadowColor='#0009';ctx.shadowBlur=12;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(0,48);ctx.lineTo(14,36);ctx.lineTo(26,57);ctx.lineTo(36,51);ctx.lineTo(24,31);ctx.lineTo(42,28);ctx.closePath();ctx.fillStyle=C.ivory;ctx.fill();ctx.strokeStyle='#10162B';ctx.lineWidth=2;ctx.stroke();ctx.shadowBlur=0;if(click>0){ctx.strokeStyle=C.cyan;ctx.lineWidth=3;ctx.globalAlpha*=1-click;ctx.beginPath();ctx.arc(6,12,20+click*42,0,Math.PI*2);ctx.stroke();}ctx.restore();}
+export function cursor(E,x,y,click=0){const {ctx,C,disc}=E;ctx.save();ctx.translate(x,y);ctx.shadowColor='#0009';ctx.shadowBlur=12;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(0,48);ctx.lineTo(14,36);ctx.lineTo(26,57);ctx.lineTo(36,51);ctx.lineTo(24,31);ctx.lineTo(42,28);ctx.closePath();ctx.fillStyle=C.ivory;ctx.fill();ctx.strokeStyle='#10162B';ctx.lineWidth=2;ctx.stroke();ctx.shadowBlur=0;if(click>0){ctx.strokeStyle=C.cyan;ctx.lineWidth=3;ctx.globalAlpha*=1-click;ctx.beginPath();ctx.arc(6,12,20+click*42,0,Math.PI*2);ctx.stroke();}ctx.restore();}
 export function createMarketToSetup(E,{events,setup=DEMO_SETUP}={}){
  if(!validateSetup(setup))throw new Error('Inconsistent demo LONG levels');
- const {ctx,type,label,panel,tag,stroke,rounded,brandPlate}=E;
+ const {ctx,C,type,label,panel,tag,stroke,rounded,brandPlate}=E;
  const fades=(time,start,end,draw)=>{if(time<start||time>=end+.28)return;let left=0,right=1080,offset=0;if(time<start+.28){const p=smooth((time-start)/.28);left=1080*(1-p);offset=30*(1-p);}if(time>=end){const p=smooth((time-end)/.28);right=1080*(1-p);offset=-30*p;}ctx.save();ctx.beginPath();ctx.rect(left,0,Math.max(0,right-left),1920);ctx.clip();ctx.translate(offset,0);draw();ctx.restore();};
  function render(time){
   const compact=smooth((time-events.assets+.4)/.8),cy=462-62*compact,width=960-240*compact;

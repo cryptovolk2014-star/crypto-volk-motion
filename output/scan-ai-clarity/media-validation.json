@@ -1,0 +1,184 @@
+{
+  "composition": "scan-ai-clarity",
+  "file": "output/crypto-volk-scan-ai-clarity.mp4",
+  "bytes": 9526380,
+  "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5",
+  "duration": 46.5,
+  "frames": 1395,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "full_decode": "passed",
+  "voice": {
+    "source_duration": 44.51265306122449,
+    "best_lag_samples_at_8khz": 0,
+    "correlation": 0.999969644787995,
+    "silence_hold_peak": 0,
+    "music_added": false
+  },
+  "encoded_frame_checks": [
+    {
+      "frame": 68,
+      "time": 2.2666666666666666,
+      "mean_pixel_difference": 1.1785860339506173
+    },
+    {
+      "frame": 169,
+      "time": 5.633333333333334,
+      "mean_pixel_difference": 1.1964014274691357
+    },
+    {
+      "frame": 357,
+      "time": 11.9,
+      "mean_pixel_difference": 1.157745949074074
+    },
+    {
+      "frame": 438,
+      "time": 14.6,
+      "mean_pixel_difference": 1.0658277070473252
+    },
+    {
+      "frame": 454,
+      "time": 15.133333333333333,
+      "mean_pixel_difference": 1.0185456854423869
+    },
+    {
+      "frame": 462,
+      "time": 15.4,
+      "mean_pixel_difference": 1.0047876478909465
+    },
+    {
+      "frame": 472,
+      "time": 15.733333333333333,
+      "mean_pixel_difference": 0.9792039609053498
+    },
+    {
+      "frame": 561,
+      "time": 18.7,
+      "mean_pixel_difference": 1.188473186728395
+    },
+    {
+      "frame": 587,
+      "time": 19.566666666666666,
+      "mean_pixel_difference": 1.1071627443415637
+    },
+    {
+      "frame": 620,
+      "time": 20.666666666666668,
+      "mean_pixel_difference": 1.1173410172325102
+    },
+    {
+      "frame": 747,
+      "time": 24.9,
+      "mean_pixel_difference": 1.1968762860082305
+    },
+    {
+      "frame": 818,
+      "time": 27.266666666666666,
+      "mean_pixel_difference": 1.0445249807098766
+    },
+    {
+      "frame": 857,
+      "time": 28.566666666666666,
+      "mean_pixel_difference": 1.058200552983539
+    },
+    {
+      "frame": 900,
+      "time": 30,
+      "mean_pixel_difference": 1.0880087770061728
+    },
+    {
+      "frame": 935,
+      "time": 31.166666666666668,
+      "mean_pixel_difference": 1.0427687757201647
+    },
+    {
+      "frame": 972,
+      "time": 32.4,
+      "mean_pixel_difference": 1.0504710005144033
+    },
+    {
+      "frame": 1122,
+      "time": 37.4,
+      "mean_pixel_difference": 1.106087159207819
+    },
+    {
+      "frame": 1150,
+      "time": 38.333333333333336,
+      "mean_pixel_difference": 1.197212416409465
+    },
+    {
+      "frame": 1280,
+      "time": 42.666666666666664,
+      "mean_pixel_difference": 1.0942865869341565
+    },
+    {
+      "frame": 1365,
+      "time": 45.5,
+      "mean_pixel_difference": 1.369240451388889
+    },
+    {
+      "frame": 576,
+      "time": 19.2,
+      "mean_pixel_difference": 1.2001162229938271
+    },
+    {
+      "frame": 596,
+      "time": 19.866666666666667,
+      "mean_pixel_difference": 1.1194129372427983
+    },
+    {
+      "frame": 634,
+      "time": 21.133333333333333,
+      "mean_pixel_difference": 1.1620902456275721
+    },
+    {
+      "frame": 779,
+      "time": 25.966666666666665,
+      "mean_pixel_difference": 0.9550162358539095
+    },
+    {
+      "frame": 783,
+      "time": 26.1,
+      "mean_pixel_difference": 0.9491462512860083
+    }
+  ],
+  "browser_playback": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 46.5,
+    "readyState": 4,
+    "currentTime": 45.019065
+  },
+  "http_range_status": 206,
+  "approved_composition_pixel_regression": [
+    {
+      "frame": "01-hook",
+      "max_pixel_difference": 0,
+      "mean_pixel_difference": 0
+    },
+    {
+      "frame": "06-market",
+      "max_pixel_difference": 0,
+      "mean_pixel_difference": 0
+    },
+    {
+      "frame": "09-ready-setup",
+      "max_pixel_difference": 0,
+      "mean_pixel_difference": 0
+    },
+    {
+      "frame": "14-order-block",
+      "max_pixel_difference": 0,
+      "mean_pixel_difference": 0
+    },
+    {
+      "frame": "19-final-cta",
+      "max_pixel_difference": 0,
+      "mean_pixel_difference": 0
+    }
+  ],
+  "javascript_errors": []
+}

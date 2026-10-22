@@ -1,0 +1,252 @@
+{
+  "id": "scan-ai-clarity",
+  "title": "Crypto Volk Scan AI — От сомнений к ясности",
+  "page": "composition.html?composition=scan-ai-clarity",
+  "module": "compositions/scan-ai-clarity.js",
+  "audio": "assets/audio/scan-ai-clarity.mp3",
+  "envelope": "assets/audio/scan-ai-clarity-envelope.json",
+  "audioDuration": 44.51265306122449,
+  "duration": 46.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "finalHoldExplanation": "Full unmodified new voice recording (44.512653061s), followed by 1.987346939s silent CTA hold.",
+  "output": "output/crypto-volk-scan-ai-clarity.mp4",
+  "previewDirectory": "output/scan-ai-clarity",
+  "scenes": [
+    {
+      "id": "hook",
+      "name": "Устал гадать?",
+      "start": 0,
+      "end": 2.72,
+      "preview": 2.25
+    },
+    {
+      "id": "opinions",
+      "name": "Два мнения",
+      "start": 2.72,
+      "end": 5.86,
+      "preview": 5.62
+    },
+    {
+      "id": "doubt",
+      "name": "Знания и сомнения",
+      "start": 5.86,
+      "end": 12.24,
+      "preview": 11.9
+    },
+    {
+      "id": "question",
+      "name": "Как поступить правильно? / Смотри",
+      "start": 12.24,
+      "end": 15.76,
+      "preview": 14.6
+    },
+    {
+      "id": "product",
+      "name": "Непрерывный путь в Scan AI",
+      "start": 15.76,
+      "end": 25.84,
+      "preview": 24.9
+    },
+    {
+      "id": "logic",
+      "name": "Логика сценария",
+      "start": 25.84,
+      "end": 33,
+      "preview": 32.4
+    },
+    {
+      "id": "learning",
+      "name": "Сценарий и понимание",
+      "start": 33,
+      "end": 38.68,
+      "preview": 37.4
+    },
+    {
+      "id": "free",
+      "name": "Три сценария бесплатно",
+      "start": 38.68,
+      "end": 42.96,
+      "preview": 42.65
+    },
+    {
+      "id": "cta",
+      "name": "Попробуй и оцени",
+      "start": 42.96,
+      "end": 46.5,
+      "preview": 45.5
+    }
+  ],
+  "journey": {
+    "open": 15.76,
+    "market": 17.4,
+    "marketClick": 17.96,
+    "assets": 19.08,
+    "assetClick": 19.36,
+    "analysis": 19.8,
+    "setup": 21.04,
+    "entry": 21.84,
+    "stop": 22.4,
+    "targets": 22.96
+  },
+  "logicCues": {
+    "entry": 26.4,
+    "stop": 28.04,
+    "targets": 29.68,
+    "fvg": 30.56,
+    "orderBlock": 31.48
+  },
+  "freeCues": {
+    "three": 41.4,
+    "free": 42.2
+  },
+  "alignment": "compositions/scan-ai-clarity-words.json",
+  "previews": [
+    {
+      "id": "01-hook",
+      "time": 2.25
+    },
+    {
+      "id": "02-long-short",
+      "time": 5.62
+    },
+    {
+      "id": "03-knowledge",
+      "time": 9.25
+    },
+    {
+      "id": "04-doubt",
+      "time": 11.9
+    },
+    {
+      "id": "05-question",
+      "time": 14.6
+    },
+    {
+      "id": "06-look-dark",
+      "time": 15.12
+    },
+    {
+      "id": "07-dark-light-transition",
+      "time": 15.4
+    },
+    {
+      "id": "08-light-reveal",
+      "time": 15.74
+    },
+    {
+      "id": "09-brand-reveal",
+      "time": 17.05
+    },
+    {
+      "id": "10-market",
+      "time": 18.7
+    },
+    {
+      "id": "11-asset",
+      "time": 19.58
+    },
+    {
+      "id": "12-analysis",
+      "time": 20.65
+    },
+    {
+      "id": "13-ready-setup",
+      "time": 24.9
+    },
+    {
+      "id": "14-entry",
+      "time": 27.25
+    },
+    {
+      "id": "15-stop",
+      "time": 28.55
+    },
+    {
+      "id": "16-targets",
+      "time": 30.0
+    },
+    {
+      "id": "17-fvg",
+      "time": 31.16
+    },
+    {
+      "id": "18-order-block",
+      "time": 32.4
+    },
+    {
+      "id": "19-scenario-learning",
+      "time": 37.4
+    },
+    {
+      "id": "20-unified-product",
+      "time": 38.32
+    },
+    {
+      "id": "21-three-cards",
+      "time": 41.05
+    },
+    {
+      "id": "22-free-scenarios",
+      "time": 42.65
+    },
+    {
+      "id": "23-final-cta",
+      "time": 45.5
+    }
+  ],
+  "preservedComposition": {
+    "commit": "6c1088919bec68c578d04a9b0567e7a413dc44e2",
+    "files": [
+      {
+        "path": "motion.js",
+        "sha256": "44a4eb48bc5c3b2431bcc87e6426234d138ecfd6cbbfab3d3686fb7031548ccd"
+      },
+      {
+        "path": "index.html",
+        "sha256": "7bd8714d83cab0648c3699e0091bae8f5456fdb15ccb1167640ea4d6f42b9f29"
+      },
+      {
+        "path": "render.mjs",
+        "sha256": "48c737cc2fc70a3cdc95c1ae634883d8ecbdf8b86e06de813f59d840f5d2b2b2"
+      },
+      {
+        "path": "assets/voiceover.mp3",
+        "sha256": "4c47a209d2fc4039233784343ba774faabc61172209415ac09fe1b23c51009ad"
+      },
+      {
+        "path": "output/crypto-volk-motion-final.mp4",
+        "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+      },
+      {
+        "path": "compositions/scan-ai-product.js",
+        "sha256": "bc1693d1c5b070e252d3391d2fc6719fbd1f1f8aca2c6f4e96188497539fc089"
+      },
+      {
+        "path": "compositions/scan-ai-product.json",
+        "sha256": "8831dd3495bc034c5f7f8560b1a302eda527ec1adbcc8f86fc430e2280f4d512"
+      },
+      {
+        "path": "compositions/scan-ai-product-words.json",
+        "sha256": "78b81b88108c76b625ec4e8c48c3d95dfc2bada333b77200bcba7a7c667216d6"
+      },
+      {
+        "path": "assets/audio/scan-ai-product.mp3",
+        "sha256": "1349d898de73cfb4599b68dec7d97597affa8bc3ba4707662877385b8f39c093"
+      },
+      {
+        "path": "output/crypto-volk-scan-ai-product.mp4",
+        "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+      }
+    ]
+  },
+  "themeTransition": {
+    "start": 15.04,
+    "end": 15.76,
+    "word": "Смотри",
+    "axis": "top-to-bottom scan reveal",
+    "dark": "#050718",
+    "light": "#F3EFE9"
+  }
+}

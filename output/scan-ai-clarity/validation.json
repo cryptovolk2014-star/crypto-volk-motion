@@ -1,0 +1,245 @@
+{
+  "composition": "scan-ai-clarity",
+  "frames": 1395,
+  "theme_transition_checks": [
+    {
+      "time": 14.6,
+      "theme": "dark",
+      "top": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "bottom": [
+        5,
+        7,
+        24,
+        255
+      ]
+    },
+    {
+      "time": 15.12,
+      "theme": "transition",
+      "top": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "bottom": [
+        5,
+        7,
+        24,
+        255
+      ]
+    },
+    {
+      "time": 15.4,
+      "theme": "transition",
+      "top": [
+        243,
+        239,
+        233,
+        255
+      ],
+      "bottom": [
+        5,
+        7,
+        24,
+        255
+      ]
+    },
+    {
+      "time": 15.74,
+      "theme": "transition",
+      "top": [
+        243,
+        239,
+        233,
+        255
+      ],
+      "bottom": [
+        235,
+        229,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 18.7,
+      "theme": "light",
+      "top": [
+        243,
+        239,
+        233,
+        255
+      ],
+      "bottom": [
+        235,
+        229,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 45.5,
+      "theme": "light",
+      "top": [
+        243,
+        239,
+        233,
+        255
+      ],
+      "bottom": [
+        235,
+        229,
+        233,
+        255
+      ]
+    }
+  ],
+  "light_text_contrast_violations": [],
+  "scenes": [
+    "hook",
+    "opinions",
+    "doubt",
+    "question",
+    "product",
+    "logic",
+    "learning",
+    "free",
+    "cta"
+  ],
+  "minimum_font_px": 36,
+  "text_draw_calls": 20006,
+  "fonts": [
+    {
+      "family": "Montserrat",
+      "status": "loaded"
+    },
+    {
+      "family": "RobotoMono",
+      "status": "loaded"
+    }
+  ],
+  "critical_text_safe_bounds": [
+    62,
+    300,
+    1018,
+    1672
+  ],
+  "safe_area_violations": [],
+  "settled_text_motion_violations": [],
+  "mixed_alphabet_words": [],
+  "brand": [
+    {
+      "path": "assets/brand/clean/cryptovolk-logo.png",
+      "sha256": "f0acb184167afb6874f002b3286fddcddcfd0c37a4ba78b909856db747c5051d",
+      "alpha": "passed"
+    },
+    {
+      "path": "assets/brand/clean/scan-ai-plate.png",
+      "sha256": "4c420c3ddf3674c730ea0973de13df892999790d5e1aaeff5ea2c527c59f2675",
+      "alpha": "passed"
+    }
+  ],
+  "drawn_images": [
+    "/assets/brand/clean/cryptovolk-logo.png",
+    "/assets/brand/clean/scan-ai-plate.png"
+  ],
+  "layout": {
+    "sampledFrames": 23,
+    "textAndBrandCollisions": []
+  },
+  "demo_setup": {
+    "asset": "BTC/USDT",
+    "market": "CRYPTO",
+    "side": "LONG",
+    "entry": 100000,
+    "stop": 99000,
+    "targets": [
+      101000,
+      102000,
+      103000
+    ],
+    "fvg": [
+      100300,
+      100620
+    ],
+    "orderBlock": [
+      99300,
+      99650
+    ],
+    "min": 98500,
+    "max": 103500,
+    "demo": true
+  },
+  "rendered_level_order": [
+    {
+      "label": "TP 3",
+      "top": 899.26
+    },
+    {
+      "label": "TP 2",
+      "top": 1009.8599999999999
+    },
+    {
+      "label": "TP 1",
+      "top": 1120.46
+    },
+    {
+      "label": "ENTRY",
+      "top": 1231.06
+    },
+    {
+      "label": "STOP",
+      "top": 1341.66
+    }
+  ],
+  "logic": "STOP < ENTRY < TP1 < TP2 < TP3; coherent FVG and order block",
+  "new_audio_alignment": "passed: source hash, decoded duration, word-cue anchors",
+  "old_composition_preserved": [
+    {
+      "path": "motion.js",
+      "sha256": "44a4eb48bc5c3b2431bcc87e6426234d138ecfd6cbbfab3d3686fb7031548ccd"
+    },
+    {
+      "path": "index.html",
+      "sha256": "7bd8714d83cab0648c3699e0091bae8f5456fdb15ccb1167640ea4d6f42b9f29"
+    },
+    {
+      "path": "render.mjs",
+      "sha256": "48c737cc2fc70a3cdc95c1ae634883d8ecbdf8b86e06de813f59d840f5d2b2b2"
+    },
+    {
+      "path": "assets/voiceover.mp3",
+      "sha256": "4c47a209d2fc4039233784343ba774faabc61172209415ac09fe1b23c51009ad"
+    },
+    {
+      "path": "output/crypto-volk-motion-final.mp4",
+      "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+    },
+    {
+      "path": "compositions/scan-ai-product.js",
+      "sha256": "bc1693d1c5b070e252d3391d2fc6719fbd1f1f8aca2c6f4e96188497539fc089"
+    },
+    {
+      "path": "compositions/scan-ai-product.json",
+      "sha256": "8831dd3495bc034c5f7f8560b1a302eda527ec1adbcc8f86fc430e2280f4d512"
+    },
+    {
+      "path": "compositions/scan-ai-product-words.json",
+      "sha256": "78b81b88108c76b625ec4e8c48c3d95dfc2bada333b77200bcba7a7c667216d6"
+    },
+    {
+      "path": "assets/audio/scan-ai-product.mp3",
+      "sha256": "1349d898de73cfb4599b68dec7d97597affa8bc3ba4707662877385b8f39c093"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-product.mp4",
+      "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+    }
+  ],
+  "javascript_errors": []
+}
