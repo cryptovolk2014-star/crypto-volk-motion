@@ -18,7 +18,11 @@
     "stills:ethereum": "node scripts/render-composition.mjs --composition=scan-ai-ethereum --stills",
     "render:ethereum": "node scripts/render-composition.mjs --composition=scan-ai-ethereum",
     "check:ethereum": "node scripts/check-ethereum.mjs",
-    "check:ethereum:media": "node scripts/check-ethereum-media.mjs"
+    "check:ethereum:media": "node scripts/check-ethereum-media.mjs",
+    "stills:ethereum:dark": "node scripts/render-composition.mjs --composition=scan-ai-ethereum-dark --stills",
+    "render:ethereum:dark": "node scripts/render-composition.mjs --composition=scan-ai-ethereum-dark",
+    "check:ethereum:dark": "node scripts/check-ethereum-dark.mjs",
+    "check:ethereum:dark:media": "node scripts/check-ethereum-dark-media.mjs"
   },
   "repository": {
     "type": "git",

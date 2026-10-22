@@ -1,0 +1,169 @@
+{
+  "composition": "scan-ai-ethereum-dark",
+  "file": "output/crypto-volk-scan-ai-ethereum-dark.mp4",
+  "bytes": 7132762,
+  "sha256": "57a252da5210e1dbd1f55bc2d14af741e141746a7cc8e307f37badfc5394a5c8",
+  "duration": 35.5,
+  "frames": 1065,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "full_decode": "passed",
+  "voice": {
+    "source_duration": 33.41061224489796,
+    "best_lag_samples_at_8khz": 0,
+    "correlation": 0.9999675122216405,
+    "silence_hold_peak": 0,
+    "music_added": false
+  },
+  "encoded_frame_checks": [
+    {
+      "frame": 86,
+      "time": 2.8666666666666667,
+      "mean_pixel_difference": 1.1965584812242798
+    },
+    {
+      "frame": 119,
+      "time": 3.966666666666667,
+      "mean_pixel_difference": 1.0126787551440328
+    },
+    {
+      "frame": 126,
+      "time": 4.2,
+      "mean_pixel_difference": 1.033514017489712
+    },
+    {
+      "frame": 173,
+      "time": 5.766666666666667,
+      "mean_pixel_difference": 1.1023535558127573
+    },
+    {
+      "frame": 233,
+      "time": 7.766666666666667,
+      "mean_pixel_difference": 1.2378372556584363
+    },
+    {
+      "frame": 254,
+      "time": 8.466666666666667,
+      "mean_pixel_difference": 1.3017467206790123
+    },
+    {
+      "frame": 281,
+      "time": 9.366666666666667,
+      "mean_pixel_difference": 1.3038252314814816
+    },
+    {
+      "frame": 284,
+      "time": 9.466666666666667,
+      "mean_pixel_difference": 1.2974496849279835
+    },
+    {
+      "frame": 288,
+      "time": 9.6,
+      "mean_pixel_difference": 1.2159244791666666
+    },
+    {
+      "frame": 321,
+      "time": 10.7,
+      "mean_pixel_difference": 1.2587504822530864
+    },
+    {
+      "frame": 348,
+      "time": 11.6,
+      "mean_pixel_difference": 1.1684548611111112
+    },
+    {
+      "frame": 386,
+      "time": 12.866666666666667,
+      "mean_pixel_difference": 1.2805351401748972
+    },
+    {
+      "frame": 450,
+      "time": 15,
+      "mean_pixel_difference": 1.2424898726851852
+    },
+    {
+      "frame": 545,
+      "time": 18.166666666666668,
+      "mean_pixel_difference": 1.2369150270061728
+    },
+    {
+      "frame": 653,
+      "time": 21.766666666666666,
+      "mean_pixel_difference": 1.1787919560185185
+    },
+    {
+      "frame": 740,
+      "time": 24.666666666666668,
+      "mean_pixel_difference": 1.165433063271605
+    },
+    {
+      "frame": 795,
+      "time": 26.5,
+      "mean_pixel_difference": 1.1604988104423868
+    },
+    {
+      "frame": 896,
+      "time": 29.866666666666667,
+      "mean_pixel_difference": 1.2036549961419754
+    },
+    {
+      "frame": 1035,
+      "time": 34.5,
+      "mean_pixel_difference": 1.3750916280864198
+    },
+    {
+      "frame": 188,
+      "time": 6.266666666666667,
+      "mean_pixel_difference": 1.1367391653806584
+    },
+    {
+      "frame": 402,
+      "time": 13.4,
+      "mean_pixel_difference": 1.3166684349279836
+    },
+    {
+      "frame": 675,
+      "time": 22.5,
+      "mean_pixel_difference": 1.09163660622428
+    },
+    {
+      "frame": 912,
+      "time": 30.4,
+      "mean_pixel_difference": 1.1664257008744856
+    }
+  ],
+  "browser_playback": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 35.5,
+    "readyState": 4,
+    "currentTime": 34.014356
+  },
+  "http_range_status": 206,
+  "approved_composition_pixel_regression": [
+    {
+      "frame": "01-problem",
+      "max_pixel_difference": 0
+    },
+    {
+      "frame": "06-touch-ethereum",
+      "max_pixel_difference": 0
+    },
+    {
+      "frame": "07-touch-analysis",
+      "max_pixel_difference": 0
+    },
+    {
+      "frame": "09-eth-scenario",
+      "max_pixel_difference": 0
+    },
+    {
+      "frame": "16-final-cta",
+      "max_pixel_difference": 0
+    }
+  ],
+  "javascript_errors": []
+}

@@ -41,3 +41,14 @@ output/scan-ai-ethereum/*
 !output/scan-ai-ethereum/validation.json
 !output/scan-ai-ethereum/media-validation.json
 !output/scan-ai-ethereum/[0-9][0-9]-*.png
+
+# All-dark Ethereum revision; final deliverables only.
+!output/crypto-volk-scan-ai-ethereum-dark.mp4
+!output/scan-ai-ethereum-dark/
+output/scan-ai-ethereum-dark/*
+!output/scan-ai-ethereum-dark/contact-sheet.jpg
+!output/scan-ai-ethereum-dark/hand-comparison.jpg
+!output/scan-ai-ethereum-dark/phone-journey.jpg
+!output/scan-ai-ethereum-dark/validation.json
+!output/scan-ai-ethereum-dark/media-validation.json
+!output/scan-ai-ethereum-dark/[0-9][0-9]-*.png

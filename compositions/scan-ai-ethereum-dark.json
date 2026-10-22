@@ -1,0 +1,314 @@
+{
+  "id": "scan-ai-ethereum-dark",
+  "title": "Crypto Volk Scan AI — Ethereum / DARK",
+  "page": "composition.html?composition=scan-ai-ethereum-dark",
+  "module": "compositions/scan-ai-ethereum-dark.js",
+  "audio": "assets/audio/scan-ai-ethereum.mp3",
+  "envelope": "assets/audio/scan-ai-ethereum-envelope.json",
+  "audioDuration": 33.41061224489796,
+  "duration": 35.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "finalHoldExplanation": "Complete new recording (33.41061224489796s) followed by 2.089387755102038s silent CTA hold; no music or speed changes.",
+  "output": "output/crypto-volk-scan-ai-ethereum-dark.mp4",
+  "previewDirectory": "output/scan-ai-ethereum-dark",
+  "scenes": [
+    {
+      "id": "problem",
+      "name": "Хватит слепо верить",
+      "start": 0,
+      "end": 3.28,
+      "preview": 2.85
+    },
+    {
+      "id": "technology",
+      "name": "Технологии / тёмное сканирующее раскрытие",
+      "start": 3.28,
+      "end": 6.12,
+      "preview": 5.75
+    },
+    {
+      "id": "phone",
+      "name": "Ethereum на ладони",
+      "start": 6.12,
+      "end": 13.24,
+      "preview": 12.85
+    },
+    {
+      "id": "proof",
+      "name": "20 000+ пользователей",
+      "start": 13.24,
+      "end": 18.72,
+      "preview": 18.15
+    },
+    {
+      "id": "trust",
+      "name": "Проверь сам",
+      "start": 18.72,
+      "end": 22.32,
+      "preview": 21.75
+    },
+    {
+      "id": "offer",
+      "name": "Три бесплатных сигнала",
+      "start": 22.32,
+      "end": 27.28,
+      "preview": 26.5
+    },
+    {
+      "id": "potential",
+      "name": "Возможности AI",
+      "start": 27.28,
+      "end": 30.24,
+      "preview": 29.85
+    },
+    {
+      "id": "cta",
+      "name": "Получи и убедись сам",
+      "start": 30.24,
+      "end": 35.5,
+      "preview": 34.5
+    }
+  ],
+  "alignment": "compositions/scan-ai-ethereum-words.json",
+  "previews": [
+    {
+      "id": "01-problem",
+      "time": 2.85
+    },
+    {
+      "id": "02-dark-look",
+      "time": 3.95
+    },
+    {
+      "id": "03-dark-scan",
+      "time": 4.2
+    },
+    {
+      "id": "04-technology",
+      "time": 5.75
+    },
+    {
+      "id": "05-phone-assets",
+      "time": 7.75
+    },
+    {
+      "id": "06-touch-ethereum",
+      "time": 8.48
+    },
+    {
+      "id": "07-touch-analysis",
+      "time": 9.36
+    },
+    {
+      "id": "08-ai-analysis",
+      "time": 10.7
+    },
+    {
+      "id": "09-eth-scenario",
+      "time": 12.85
+    },
+    {
+      "id": "10-not-experiment",
+      "time": 15.0
+    },
+    {
+      "id": "11-20000-users",
+      "time": 18.15
+    },
+    {
+      "id": "12-check-yourself",
+      "time": 21.75
+    },
+    {
+      "id": "13-three-signals",
+      "time": 24.65
+    },
+    {
+      "id": "14-free-offer",
+      "time": 26.5
+    },
+    {
+      "id": "15-ai-potential",
+      "time": 29.85
+    },
+    {
+      "id": "16-final-cta",
+      "time": 34.5
+    }
+  ],
+  "preservedComposition": {
+    "commit": "aebdf9d86f5c152602b022bad9b317c44c5357b2",
+    "files": [
+      {
+        "path": "motion.js",
+        "sha256": "44a4eb48bc5c3b2431bcc87e6426234d138ecfd6cbbfab3d3686fb7031548ccd"
+      },
+      {
+        "path": "index.html",
+        "sha256": "7bd8714d83cab0648c3699e0091bae8f5456fdb15ccb1167640ea4d6f42b9f29"
+      },
+      {
+        "path": "render.mjs",
+        "sha256": "48c737cc2fc70a3cdc95c1ae634883d8ecbdf8b86e06de813f59d840f5d2b2b2"
+      },
+      {
+        "path": "assets/voiceover.mp3",
+        "sha256": "4c47a209d2fc4039233784343ba774faabc61172209415ac09fe1b23c51009ad"
+      },
+      {
+        "path": "output/crypto-volk-motion-final.mp4",
+        "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+      },
+      {
+        "path": "compositions/scan-ai-product.js",
+        "sha256": "bc1693d1c5b070e252d3391d2fc6719fbd1f1f8aca2c6f4e96188497539fc089"
+      },
+      {
+        "path": "compositions/scan-ai-product.json",
+        "sha256": "8831dd3495bc034c5f7f8560b1a302eda527ec1adbcc8f86fc430e2280f4d512"
+      },
+      {
+        "path": "compositions/scan-ai-product-words.json",
+        "sha256": "78b81b88108c76b625ec4e8c48c3d95dfc2bada333b77200bcba7a7c667216d6"
+      },
+      {
+        "path": "assets/audio/scan-ai-product.mp3",
+        "sha256": "1349d898de73cfb4599b68dec7d97597affa8bc3ba4707662877385b8f39c093"
+      },
+      {
+        "path": "output/crypto-volk-scan-ai-product.mp4",
+        "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+      },
+      {
+        "path": "compositions/scan-ai-clarity.js",
+        "sha256": "e921efb675f9370a098c61abd835a7397afc0cc99741537b9b8028d4ed4255a9"
+      },
+      {
+        "path": "compositions/scan-ai-clarity.json",
+        "sha256": "9d31a2e7d3c5da8d4dda08c9f08b673157df9da5719580704d75b922c689a592"
+      },
+      {
+        "path": "assets/audio/scan-ai-clarity.mp3",
+        "sha256": "2997e291047fc198ab8dc9ed6ef0bbb83124ba6e76ec42e544c2e16eb512c85f"
+      },
+      {
+        "path": "output/crypto-volk-scan-ai-clarity.mp4",
+        "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5"
+      },
+      {
+        "path": "compositions/scan-ai-ethereum.json",
+        "sha256": "34083162db115ee6d06411b900e6cc03d63399ed9e505f2c7b8961617e81621b"
+      },
+      {
+        "path": "assets/audio/scan-ai-ethereum.mp3",
+        "sha256": "11def07a78f97e6721b8d4a8cc006e2d05e0b72299e2cd5ab0b9625986f9054f"
+      },
+      {
+        "path": "assets/phone/left-hand-iphone.png",
+        "sha256": "466526ad2b26e30d2fb588964126d9e94694c88d86c5bb562670a22d3fcdbbb0"
+      },
+      {
+        "path": "assets/phone/right-hand-tap.png",
+        "sha256": "211459bc904d125732e730423154a04449dd6364131ceae0528818e3e6462e21"
+      },
+      {
+        "path": "output/crypto-volk-scan-ai-ethereum.mp4",
+        "sha256": "3771bb2e09c37b868428e7b9b1b45822283558a3e6622271fa959f9e4e1477f5"
+      }
+    ]
+  },
+  "themeTransition": {
+    "start": 3.84,
+    "end": 4.56,
+    "word": "посмотри",
+    "axis": "cyan scan line within navy; no light-background reveal",
+    "dark": "#050718",
+    "light": null
+  },
+  "phoneCues": {
+    "open": 6.12,
+    "assetApproach": 7.88,
+    "assetTouch": 8.48,
+    "analysisApproach": 8.95,
+    "analysisTouch": 9.36,
+    "analysis": 9.52,
+    "eth": 10.04,
+    "setup": 11.52,
+    "entry": 11.84,
+    "stop": 12.12,
+    "targets": 12.4
+  },
+  "proofCues": {
+    "contrast": 13.36,
+    "more": 16.6,
+    "twentyThousand": 16.96,
+    "people": 18.04
+  },
+  "offerCues": {
+    "three": 23.08,
+    "free": 23.32,
+    "signals": 24,
+    "check": 25.28,
+    "ai": 26.6
+  },
+  "setup": {
+    "asset": "ETH/USDT",
+    "market": "CRYPTO",
+    "side": "LONG",
+    "entry": 3300,
+    "stop": 3150,
+    "targets": [
+      3450,
+      3600,
+      3750
+    ],
+    "fvg": [
+      3345,
+      3393
+    ],
+    "orderBlock": [
+      3195,
+      3248
+    ],
+    "min": 3075,
+    "max": 3825,
+    "demo": true
+  },
+  "themeMode": "dark",
+  "phoneOptions": {
+    "screenTheme": "dark",
+    "rightHandScale": 0.82
+  },
+  "handCalibration": {
+    "method": "Match projected index-finger length to the supporting thumb / phone, rather than use equal whole-image dimensions.",
+    "leftAssetScale": 0.96,
+    "previousRightScale": 0.53,
+    "rightScale": 0.82,
+    "rightScaleMultiplier": 1.5471698113207546,
+    "leftThumbLandmarks": [
+      [
+        280,
+        342
+      ],
+      [
+        150,
+        710
+      ]
+    ],
+    "rightIndexLandmarks": [
+      [
+        205,
+        135
+      ],
+      [
+        520,
+        610
+      ]
+    ],
+    "leftThumbProjectedLength": 374.6755908782957,
+    "rightIndexProjectedLength": 467.3640337039212,
+    "description": "Corrected right hand is 54.7% larger before the touch compression, with an anatomically longer index than the holding thumb. Source images and finger contact anchors remain unchanged."
+  }
+}

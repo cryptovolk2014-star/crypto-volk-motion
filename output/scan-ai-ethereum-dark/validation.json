@@ -1,0 +1,499 @@
+{
+  "composition": "scan-ai-ethereum-dark",
+  "frames": 1065,
+  "hand_contacts": [
+    {
+      "time": 8.48,
+      "phase": "phone-asset",
+      "pose": {
+        "x": 717,
+        "y": 1082,
+        "pressure": 1,
+        "touch": 8.48,
+        "d": 0,
+        "kind": "select-ethereum",
+        "target": {
+          "x": 717,
+          "y": 1080
+        },
+        "scale": 0.7995,
+        "baseScale": 0.82
+      },
+      "selected": "ETH/USDT"
+    },
+    {
+      "time": 9.36,
+      "phase": "phone-asset",
+      "pose": {
+        "x": 690,
+        "y": 1432,
+        "pressure": 1,
+        "touch": 9.36,
+        "d": 0,
+        "kind": "run-analysis",
+        "target": {
+          "x": 690,
+          "y": 1430
+        },
+        "scale": 0.7995,
+        "baseScale": 0.82
+      },
+      "selected": "ETH/USDT"
+    }
+  ],
+  "phone_text_glass_bounds": [
+    {
+      "text": "9:41",
+      "inside": true
+    },
+    {
+      "text": "ETH/USDT",
+      "inside": true
+    },
+    {
+      "text": "LONG",
+      "inside": true
+    },
+    {
+      "text": "СЦЕНАРИЙ",
+      "inside": true
+    },
+    {
+      "text": "ENTRY",
+      "inside": true
+    },
+    {
+      "text": "3 300",
+      "inside": true
+    },
+    {
+      "text": "STOP",
+      "inside": true
+    },
+    {
+      "text": "3 150",
+      "inside": true
+    },
+    {
+      "text": "TP 1",
+      "inside": true
+    },
+    {
+      "text": "3 450",
+      "inside": true
+    },
+    {
+      "text": "TP 2",
+      "inside": true
+    },
+    {
+      "text": "3 600",
+      "inside": true
+    },
+    {
+      "text": "TP 3",
+      "inside": true
+    },
+    {
+      "text": "3 750",
+      "inside": true
+    },
+    {
+      "text": "ДЕМО",
+      "inside": true
+    }
+  ],
+  "dark_theme_checks": [
+    {
+      "time": 2.85,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 3.95,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 4.2,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 4.55,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 7.75,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": [
+        9,
+        14,
+        35,
+        255
+      ]
+    },
+    {
+      "time": 8.48,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": [
+        9,
+        14,
+        35,
+        255
+      ]
+    },
+    {
+      "time": 9.36,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": [
+        9,
+        14,
+        35,
+        255
+      ]
+    },
+    {
+      "time": 10.7,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": [
+        9,
+        14,
+        35,
+        255
+      ]
+    },
+    {
+      "time": 12.85,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": [
+        9,
+        14,
+        35,
+        255
+      ]
+    },
+    {
+      "time": 15,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 18.15,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 21.75,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 26.5,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 29.85,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    },
+    {
+      "time": 34.5,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ],
+      "phoneScreen": null
+    }
+  ],
+  "dark_text_contrast_violations": [],
+  "hand_scale_checks": [
+    {
+      "time": 8.48,
+      "holdingThumb": 374.67559087829557,
+      "tappingIndex": 451.88904229505283,
+      "indexToThumb": 1.2060808157685357,
+      "baseRightScale": 0.82
+    },
+    {
+      "time": 9.36,
+      "holdingThumb": 374.67559087829557,
+      "tappingIndex": 451.88904229505283,
+      "indexToThumb": 1.2060808157685357,
+      "baseRightScale": 0.82
+    }
+  ],
+  "scenes": [
+    "problem",
+    "technology",
+    "phone",
+    "proof",
+    "trust",
+    "offer",
+    "potential",
+    "cta"
+  ],
+  "minimum_font_px": 36,
+  "text_draw_calls": 13469,
+  "fonts": [
+    {
+      "family": "Montserrat",
+      "status": "loaded"
+    },
+    {
+      "family": "RobotoMono",
+      "status": "loaded"
+    }
+  ],
+  "critical_text_safe_bounds": [
+    62,
+    300,
+    1018,
+    1672
+  ],
+  "safe_area_violations": [],
+  "settled_text_motion_violations": [],
+  "mixed_alphabet_words": [],
+  "brand": [
+    {
+      "path": "assets/brand/clean/cryptovolk-logo.png",
+      "sha256": "f0acb184167afb6874f002b3286fddcddcfd0c37a4ba78b909856db747c5051d",
+      "alpha": "passed"
+    },
+    {
+      "path": "assets/brand/clean/scan-ai-plate.png",
+      "sha256": "4c420c3ddf3674c730ea0973de13df892999790d5e1aaeff5ea2c527c59f2675",
+      "alpha": "passed"
+    }
+  ],
+  "drawn_images": [
+    "/assets/brand/clean/cryptovolk-logo.png",
+    "/assets/brand/clean/scan-ai-plate.png",
+    "/assets/phone/left-hand-iphone.png",
+    "/assets/phone/right-hand-tap.png"
+  ],
+  "layout": {
+    "sampledFrames": 16,
+    "textAndBrandCollisions": []
+  },
+  "demo_setup": {
+    "asset": "ETH/USDT",
+    "market": "CRYPTO",
+    "side": "LONG",
+    "entry": 3300,
+    "stop": 3150,
+    "targets": [
+      3450,
+      3600,
+      3750
+    ],
+    "fvg": [
+      3345,
+      3393
+    ],
+    "orderBlock": [
+      3195,
+      3248
+    ],
+    "min": 3075,
+    "max": 3825,
+    "demo": true
+  },
+  "rendered_level_order": [
+    {
+      "label": "ENTRY",
+      "y": 1118,
+      "color": "rgba(95, 205, 201, 0.533)"
+    },
+    {
+      "label": "STOP",
+      "y": 1156,
+      "color": "rgba(255, 112, 137, 0.533)"
+    },
+    {
+      "label": "TP 1",
+      "y": 1080,
+      "color": "rgba(114, 227, 178, 0.533)"
+    },
+    {
+      "label": "TP 2",
+      "y": 1042,
+      "color": "rgba(95, 205, 201, 0.533)"
+    },
+    {
+      "label": "TP 3",
+      "y": 1004,
+      "color": "rgba(95, 205, 201, 0.533)"
+    }
+  ],
+  "logic": "ETH demo: STOP 3150 < ENTRY 3300 < TP1 3450 < TP2 3600 < TP3 3750; coherent normalized candles, FVG and order block",
+  "new_audio_alignment": "passed: source hash, decoded duration, word-cue anchors",
+  "old_composition_preserved": [
+    {
+      "path": "motion.js",
+      "sha256": "44a4eb48bc5c3b2431bcc87e6426234d138ecfd6cbbfab3d3686fb7031548ccd"
+    },
+    {
+      "path": "index.html",
+      "sha256": "7bd8714d83cab0648c3699e0091bae8f5456fdb15ccb1167640ea4d6f42b9f29"
+    },
+    {
+      "path": "render.mjs",
+      "sha256": "48c737cc2fc70a3cdc95c1ae634883d8ecbdf8b86e06de813f59d840f5d2b2b2"
+    },
+    {
+      "path": "assets/voiceover.mp3",
+      "sha256": "4c47a209d2fc4039233784343ba774faabc61172209415ac09fe1b23c51009ad"
+    },
+    {
+      "path": "output/crypto-volk-motion-final.mp4",
+      "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+    },
+    {
+      "path": "compositions/scan-ai-product.js",
+      "sha256": "bc1693d1c5b070e252d3391d2fc6719fbd1f1f8aca2c6f4e96188497539fc089"
+    },
+    {
+      "path": "compositions/scan-ai-product.json",
+      "sha256": "8831dd3495bc034c5f7f8560b1a302eda527ec1adbcc8f86fc430e2280f4d512"
+    },
+    {
+      "path": "compositions/scan-ai-product-words.json",
+      "sha256": "78b81b88108c76b625ec4e8c48c3d95dfc2bada333b77200bcba7a7c667216d6"
+    },
+    {
+      "path": "assets/audio/scan-ai-product.mp3",
+      "sha256": "1349d898de73cfb4599b68dec7d97597affa8bc3ba4707662877385b8f39c093"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-product.mp4",
+      "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+    },
+    {
+      "path": "compositions/scan-ai-clarity.js",
+      "sha256": "e921efb675f9370a098c61abd835a7397afc0cc99741537b9b8028d4ed4255a9"
+    },
+    {
+      "path": "compositions/scan-ai-clarity.json",
+      "sha256": "9d31a2e7d3c5da8d4dda08c9f08b673157df9da5719580704d75b922c689a592"
+    },
+    {
+      "path": "assets/audio/scan-ai-clarity.mp3",
+      "sha256": "2997e291047fc198ab8dc9ed6ef0bbb83124ba6e76ec42e544c2e16eb512c85f"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-clarity.mp4",
+      "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5"
+    },
+    {
+      "path": "compositions/scan-ai-ethereum.json",
+      "sha256": "34083162db115ee6d06411b900e6cc03d63399ed9e505f2c7b8961617e81621b"
+    },
+    {
+      "path": "assets/audio/scan-ai-ethereum.mp3",
+      "sha256": "11def07a78f97e6721b8d4a8cc006e2d05e0b72299e2cd5ab0b9625986f9054f"
+    },
+    {
+      "path": "assets/phone/left-hand-iphone.png",
+      "sha256": "466526ad2b26e30d2fb588964126d9e94694c88d86c5bb562670a22d3fcdbbb0"
+    },
+    {
+      "path": "assets/phone/right-hand-tap.png",
+      "sha256": "211459bc904d125732e730423154a04449dd6364131ceae0528818e3e6462e21"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum.mp4",
+      "sha256": "3771bb2e09c37b868428e7b9b1b45822283558a3e6622271fa959f9e4e1477f5"
+    }
+  ],
+  "javascript_errors": []
+}

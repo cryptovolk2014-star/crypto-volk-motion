@@ -1,3 +1,4 @@
+import {drawDarkScan} from '../components/dark-scan.js';
 import {createFintechEngine,clamp,reveal,smooth,ease} from '../components/fintech.js';
 import {drawTradingChart,validateSetup} from '../components/trading-setup.js';
 import {drawThemeReveal} from '../components/theme-reveal.js';
@@ -7,7 +8,7 @@ export async function createComposition(canvas,config){
  const E=createFintechEngine(canvas,{minFont:36,small:38}),{ctx,C,type,label,title,panel,tag,stroke,disc,trace,rounded,contain,brandPlate,telegram,background}=E;
  const brand={logo:'assets/brand/clean/cryptovolk-logo.png',plate:'assets/brand/clean/scan-ai-plate.png'},phoneAssets={left:'assets/phone/left-hand-iphone.png',right:'assets/phone/right-hand-tap.png'};
  const [logo,plate,left,right,envelope]=await Promise.all([load(brand.logo),load(brand.plate),load(phoneAssets.left),load(phoneAssets.right),fetch(config.envelope).then(r=>r.json())]);E.setBrandAssets({logo,plate});
- const setup=config.setup,phone=createPhoneDemo(E,{left,right,events:config.phoneCues,setup});let state={},sceneAudit=[];
+ const setup=config.setup,phone=createPhoneDemo(E,{left,right,events:config.phoneCues,setup,...config.phoneOptions});let state={},sceneAudit=[];
  const alpha=(a,draw)=>{if(a<=0)return;ctx.save();ctx.globalAlpha*=clamp(a);draw();ctx.restore();};
  function top(a,b,t,{size=108,second=size,color=C.ivory,accent=C.cyan}={}){title(a,407,t,0,color,size);title(b,526,t,.08,accent,second);}
  function ethereum(x,y,size,time,{rotation=true}={}){
@@ -34,7 +35,7 @@ export async function createComposition(canvas,config){
   const look=config.themeTransition.start;
   alpha(1-reveal(time,5.08,.2),()=>{type('ПОСМОТРИ',540,900,119,C.ivory,800,{align:'center',maxWidth:920});label('ДО ЧЕГО ДОШЛИ ТЕХНОЛОГИИ',540,1032,C.muted,38,{align:'center',maxWidth:920});});
   alpha(reveal(time,5.28,.35),()=>{top('ТЕХНОЛОГИИ','УЖЕ ЗДЕСЬ.',time-5.18,{size:91,second:116});ethereum(540,1078,275,time-5.12);label('ETHEREUM × SCAN AI',540,1534,C.cyan,42,{align:'center'});});
-  state={phase:time<look?'look':time<config.themeTransition.end?'dark-light-reveal':'technology',intentionalOverlay:time>=look&&time<config.themeTransition.end};
+  state={phase:time<look?'look':time<config.themeTransition.end?(config.themeMode==='dark'?'scan-reveal':'dark-light-reveal'):'technology',intentionalOverlay:time>=look&&time<config.themeTransition.end};
  }
  function product(local,time){
   const phase=time<config.phoneCues.analysis?'asset':time<config.phoneCues.setup?'analysis':'setup';
@@ -79,6 +80,6 @@ export async function createComposition(canvas,config){
   const ink=E.getTheme()==='light'?'#F3EFE9':'#050718',fade=ctx.createLinearGradient(0,1645,0,1732);fade.addColorStop(0,ink+'00');fade.addColorStop(1,ink);ctx.fillStyle=fade;ctx.fillRect(0,1645,1080,90);ctx.fillStyle=ink;ctx.fillRect(0,1732,1080,188);
   sceneAudit=E.getAudit().slice();footer(t,index);
  }
- function render(seconds){const t=clamp(seconds,0,config.duration-.001),index=config.scenes.findLastIndex(s=>s.start<=t),local=t-config.scenes[index].start;E.resetAudit();drawThemeReveal(E,{time:t,start:config.themeTransition.start,end:config.themeTransition.end,draw:()=>scene(t,index,local)});window.lastTextAudit=E.getAudit();window.sceneTextAudit=sceneAudit;window.lastSceneState={...state,scene:config.scenes[index].id,time:t,local,theme:t>=config.themeTransition.end?'light':t>=config.themeTransition.start?'transition':'dark'};return window.lastSceneState;}
+ function render(seconds){const t=clamp(seconds,0,config.duration-.001),index=config.scenes.findLastIndex(s=>s.start<=t),local=t-config.scenes[index].start;E.resetAudit();if(config.themeMode==='dark')drawDarkScan(E,{time:t,start:config.themeTransition.start,end:config.themeTransition.end,draw:()=>scene(t,index,local)});else drawThemeReveal(E,{time:t,start:config.themeTransition.start,end:config.themeTransition.end,draw:()=>scene(t,index,local)});window.lastTextAudit=E.getAudit();window.sceneTextAudit=sceneAudit;window.lastSceneState={...state,scene:config.scenes[index].id,time:t,local,theme:config.themeMode==='dark'?'dark':t>=config.themeTransition.end?'light':t>=config.themeTransition.start?'transition':'dark'};return window.lastSceneState;}
  return {render,config,brand,phoneAssets,setup,validateSetup:()=>validateSetup(setup),getAudit:()=>sceneAudit};
 }

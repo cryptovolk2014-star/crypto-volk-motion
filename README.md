@@ -1,5 +1,27 @@
 # Crypto Volk Motion Engine
 
+## Ethereum / DARK — исправленная версия
+
+**35,5 с · 1080×1920 · 30 fps.** Весь ролик переведён в тёмную палитру, включая экран iPhone и все панели. Масштаб правой руки исправлен: оба жеста теперь соответствуют размеру удерживающей руки. Озвучка и предыдущие версии сохранены.
+
+```sh
+npm ci --cache .npm-cache
+npm start
+```
+
+Просмотр: `http://localhost:4173/composition.html?composition=scan-ai-ethereum-dark`.
+
+```sh
+npm run check:ethereum:dark
+npm run stills:ethereum:dark
+npm run render:ethereum:dark
+npm run check:ethereum:dark:media
+```
+
+MP4: `output/crypto-volk-scan-ai-ethereum-dark.mp4`. Превью, контактный лист и отдельный лист двух исправленных нажатий: `output/scan-ai-ethereum-dark/`. Подробности: [docs/scan-ai-ethereum-dark.md](docs/scan-ai-ethereum-dark.md). Для запуска нужны Node.js, Chromium и FFmpeg.
+
+---
+
 ## Новый ролик: Ethereum на ладони
 
 **35,5 с · 1080×1920 · 30 fps.** Новая озвучка, оригинальные прозрачные плашки, переход DARK → LIGHT и iPhone в левой руке с нажатиями правой. Программный интерфейс показывает ETH/USDT → AI-анализ → демонстрационный LONG-сценарий. Предыдущие ролики сохранены.
