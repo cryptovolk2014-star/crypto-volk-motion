@@ -9,3 +9,13 @@ tmp/
 output/*
 !output/crypto-volk-motion-final.mp4
 __pycache__/
+
+# Final deliverables of the separate Scan AI product composition.
+!output/crypto-volk-scan-ai-product.mp4
+!output/scan-ai-product/
+output/scan-ai-product/*
+!output/scan-ai-product/contact-sheet.jpg
+!output/scan-ai-product/product-journey.jpg
+!output/scan-ai-product/validation.json
+!output/scan-ai-product/media-validation.json
+!output/scan-ai-product/[0-9][0-9]-*.png

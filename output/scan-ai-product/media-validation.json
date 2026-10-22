@@ -1,0 +1,121 @@
+{
+  "composition": "scan-ai-product",
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "44.000000",
+        "nb_frames": "1320",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "duration": "44.000000",
+        "nb_frames": "1896"
+      }
+    ],
+    "format": {
+      "duration": "44.000000",
+      "size": "8774274"
+    }
+  },
+  "encoded_keyframes_compared": [
+    {
+      "preview": "01-hook",
+      "seconds": 2.1,
+      "mean_pixel_difference": 1.1719396114349365
+    },
+    {
+      "preview": "02-long-short",
+      "seconds": 5.9,
+      "mean_pixel_difference": 1.1942373514175415
+    },
+    {
+      "preview": "04-doubt",
+      "seconds": 12,
+      "mean_pixel_difference": 1.1320332288742065
+    },
+    {
+      "preview": "06-market",
+      "seconds": 15.9,
+      "mean_pixel_difference": 1.2286652326583862
+    },
+    {
+      "preview": "09-ready-setup",
+      "seconds": 21.5,
+      "mean_pixel_difference": 1.3419619798660278
+    },
+    {
+      "preview": "14-order-block",
+      "seconds": 29.5,
+      "mean_pixel_difference": 1.227379322052002
+    },
+    {
+      "preview": "15-scenario-learning",
+      "seconds": 34.4,
+      "mean_pixel_difference": 1.2097653150558472
+    },
+    {
+      "preview": "18-free-scenarios",
+      "seconds": 40.15,
+      "mean_pixel_difference": 1.166590929031372
+    },
+    {
+      "preview": "19-final-cta",
+      "seconds": 43,
+      "mean_pixel_difference": 1.2214306592941284
+    }
+  ],
+  "encoded_corrected_transitions_compared": [
+    {
+      "frame": 495,
+      "mean_pixel_difference": 1.260472297668457
+    },
+    {
+      "frame": 515,
+      "mean_pixel_difference": 1.2123558521270752
+    },
+    {
+      "frame": 560,
+      "mean_pixel_difference": 1.2293593883514404
+    },
+    {
+      "frame": 687,
+      "mean_pixel_difference": 1.1498860120773315
+    },
+    {
+      "frame": 693,
+      "mean_pixel_difference": 1.1107982397079468
+    },
+    {
+      "frame": 699,
+      "mean_pixel_difference": 1.227409839630127
+    },
+    {
+      "frame": 908,
+      "mean_pixel_difference": 1.184403896331787
+    },
+    {
+      "frame": 1218,
+      "mean_pixel_difference": 1.0563478469848633
+    }
+  ],
+  "audio_offset_samples_at_8khz": 0,
+  "audio_waveform_correlation": 0.9999703388834627,
+  "source_audio_seconds": 42.109375,
+  "final_silent_hold_peak": 0,
+  "source_audio_preserved": true,
+  "video_sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e",
+  "updated_transition_render_differs_from_first_pass": true,
+  "full_decode": "passed",
+  "final_browser_playback_and_seek": "passed",
+  "range_streaming": "passed"
+}

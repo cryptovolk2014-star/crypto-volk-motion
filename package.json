@@ -7,7 +7,10 @@
     "check": "node scripts/check-motion.mjs",
     "start": "node server.mjs",
     "render": "node render.mjs",
-    "stills": "node render.mjs --stills"
+    "stills": "node render.mjs --stills",
+    "stills:product": "node scripts/render-composition.mjs --composition=scan-ai-product --stills",
+    "render:product": "node scripts/render-composition.mjs --composition=scan-ai-product",
+    "check:product": "node scripts/check-composition.mjs --composition=scan-ai-product"
   },
   "repository": {
     "type": "git",

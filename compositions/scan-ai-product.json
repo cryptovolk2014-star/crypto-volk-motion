@@ -1,0 +1,201 @@
+{
+  "id": "scan-ai-product",
+  "title": "Crypto Volk Scan AI — Выбери рынок. Пойми сценарий.",
+  "page": "composition.html?composition=scan-ai-product",
+  "module": "compositions/scan-ai-product.js",
+  "audio": "assets/audio/scan-ai-product.mp3",
+  "envelope": "assets/audio/scan-ai-product-envelope.json",
+  "audioDuration": 42.109375,
+  "duration": 44,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "finalHoldExplanation": "Voice recording preserved in full. 1.890625 seconds of silence added after its end to hold the final CTA.",
+  "output": "output/crypto-volk-scan-ai-product.mp4",
+  "previewDirectory": "output/scan-ai-product",
+  "scenes": [
+    {
+      "id": "hook",
+      "name": "Устал гадать?",
+      "start": 0,
+      "end": 2.8,
+      "preview": 2.1
+    },
+    {
+      "id": "opinions",
+      "name": "Противоречивые прогнозы",
+      "start": 2.8,
+      "end": 6.12,
+      "preview": 5.9
+    },
+    {
+      "id": "doubt",
+      "name": "Знания и сомнения",
+      "start": 6.12,
+      "end": 12.68,
+      "preview": 12.0
+    },
+    {
+      "id": "product",
+      "name": "Scan AI: путь пользователя",
+      "start": 12.68,
+      "end": 22.8,
+      "preview": 21.5
+    },
+    {
+      "id": "logic",
+      "name": "Логика сценария",
+      "start": 22.8,
+      "end": 30.16,
+      "preview": 29.5
+    },
+    {
+      "id": "learning",
+      "name": "Сценарий и понимание",
+      "start": 30.16,
+      "end": 35.96,
+      "preview": 34.4
+    },
+    {
+      "id": "free",
+      "name": "Три сценария бесплатно",
+      "start": 35.96,
+      "end": 40.48,
+      "preview": 40.15
+    },
+    {
+      "id": "cta",
+      "name": "Попробуй и оцени",
+      "start": 40.48,
+      "end": 44,
+      "preview": 43
+    }
+  ],
+  "journey": {
+    "open": 12.68,
+    "market": 14.24,
+    "marketClick": 14.96,
+    "assets": 16.45,
+    "assetClick": 16.72,
+    "analysis": 17.08,
+    "setup": 18.56,
+    "entry": 18.88,
+    "stop": 19.44,
+    "targets": 20
+  },
+  "logicCues": {
+    "entry": 23.4,
+    "stop": 25.12,
+    "targets": 26.84,
+    "fvg": 27.72,
+    "orderBlock": 28.6
+  },
+  "freeCues": {
+    "three": 38.8,
+    "free": 39.68
+  },
+  "alignment": "compositions/scan-ai-product-words.json",
+  "previews": [
+    {
+      "id": "01-hook",
+      "time": 2.1
+    },
+    {
+      "id": "02-long-short",
+      "time": 5.9
+    },
+    {
+      "id": "03-knowledge",
+      "time": 9.7
+    },
+    {
+      "id": "04-doubt",
+      "time": 12
+    },
+    {
+      "id": "05-brand-reveal",
+      "time": 13.9
+    },
+    {
+      "id": "06-market",
+      "time": 15.9
+    },
+    {
+      "id": "07-asset",
+      "time": 16.85
+    },
+    {
+      "id": "08-analysis",
+      "time": 17.85
+    },
+    {
+      "id": "09-ready-setup",
+      "time": 21.5
+    },
+    {
+      "id": "10-entry",
+      "time": 24.3
+    },
+    {
+      "id": "11-stop",
+      "time": 25.7
+    },
+    {
+      "id": "12-targets",
+      "time": 27.15
+    },
+    {
+      "id": "13-fvg",
+      "time": 28.25
+    },
+    {
+      "id": "14-order-block",
+      "time": 29.5
+    },
+    {
+      "id": "15-scenario-learning",
+      "time": 34.4
+    },
+    {
+      "id": "16-unified-product",
+      "time": 35.65
+    },
+    {
+      "id": "17-three-cards",
+      "time": 38.5
+    },
+    {
+      "id": "18-free-scenarios",
+      "time": 40.15
+    },
+    {
+      "id": "19-final-cta",
+      "time": 43
+    }
+  ],
+  "preservedComposition": {
+    "commit": "8033f7f4ae0fa38ddbf66f95a491a5ecf3204f87",
+    "files": [
+      {
+        "path": "motion.js",
+        "sha256": "44a4eb48bc5c3b2431bcc87e6426234d138ecfd6cbbfab3d3686fb7031548ccd"
+      },
+      {
+        "path": "index.html",
+        "sha256": "7bd8714d83cab0648c3699e0091bae8f5456fdb15ccb1167640ea4d6f42b9f29"
+      },
+      {
+        "path": "render.mjs",
+        "sha256": "48c737cc2fc70a3cdc95c1ae634883d8ecbdf8b86e06de813f59d840f5d2b2b2"
+      },
+      {
+        "path": "assets/voiceover.mp3",
+        "sha256": "4c47a209d2fc4039233784343ba774faabc61172209415ac09fe1b23c51009ad"
+      },
+      {
+        "path": "output/crypto-volk-motion-final.mp4",
+        "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+      }
+    ]
+  }
+}
