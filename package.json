@@ -22,7 +22,11 @@
     "stills:ethereum:dark": "node scripts/render-composition.mjs --composition=scan-ai-ethereum-dark --stills",
     "render:ethereum:dark": "node scripts/render-composition.mjs --composition=scan-ai-ethereum-dark",
     "check:ethereum:dark": "node scripts/check-ethereum-dark.mjs",
-    "check:ethereum:dark:media": "node scripts/check-ethereum-dark-media.mjs"
+    "check:ethereum:dark:media": "node scripts/check-ethereum-dark-media.mjs",
+    "check:oil": "node scripts/check-oil.mjs",
+    "stills:oil": "node scripts/render-composition.mjs --composition=scan-ai-oil --stills",
+    "render:oil": "node scripts/render-composition.mjs --composition=scan-ai-oil",
+    "check:oil:media": "node scripts/check-oil-media.mjs"
   },
   "repository": {
     "type": "git",

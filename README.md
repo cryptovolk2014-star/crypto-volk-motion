@@ -1,5 +1,27 @@
 # Crypto Volk Motion Engine
 
+## Новый ролик: Нефть / Scan AI / DARK
+
+**26,7 с · 1080×1920 · 30 fps.** Новый нефтяной хук, новая озвучка и демонстрация плана сделки в тёмном премиальном стиле первых роликов. Вход, цель и риск раскрываются по речи; финал предлагает три бесплатных анализа. Все предыдущие версии сохранены.
+
+```sh
+npm ci --cache .npm-cache
+npm start
+```
+
+Просмотр: `http://localhost:4173/composition.html?composition=scan-ai-oil`.
+
+```sh
+npm run check:oil
+npm run stills:oil
+npm run render:oil
+npm run check:oil:media
+```
+
+Видео: `output/crypto-volk-scan-ai-oil.mp4`. Превью: `output/scan-ai-oil/`. Таймлайн: `compositions/scan-ai-oil.json`. Инструкции, тайминги и отчёт об изменениях: [docs/scan-ai-oil.md](docs/scan-ai-oil.md). Требуются Node.js, Chromium и FFmpeg. Для контактного листа: `python scripts/contact-sheet.py --composition=scan-ai-oil` (Pillow).
+
+---
+
 ## Ethereum / DARK — исправленная версия
 
 **35,5 с · 1080×1920 · 30 fps.** Весь ролик переведён в тёмную палитру, включая экран iPhone и все панели. Масштаб правой руки исправлен: оба жеста теперь соответствуют размеру удерживающей руки. Озвучка и предыдущие версии сохранены.

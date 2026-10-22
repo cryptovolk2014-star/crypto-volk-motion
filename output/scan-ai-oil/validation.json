@@ -1,0 +1,316 @@
+{
+  "composition": "scan-ai-oil",
+  "frames": 801,
+  "minimum_font_px": 36,
+  "text_draw_calls": 11999,
+  "fonts": [
+    {
+      "family": "Montserrat",
+      "status": "loaded"
+    },
+    {
+      "family": "RobotoMono",
+      "status": "loaded"
+    }
+  ],
+  "scenes": [
+    "hook",
+    "forecast",
+    "plan",
+    "analysis",
+    "levels",
+    "telegram",
+    "offer",
+    "cta"
+  ],
+  "critical_text_safe_bounds": [
+    62,
+    300,
+    1018,
+    1672
+  ],
+  "safe_area_violations": [],
+  "mixed_alphabet_words": [],
+  "settled_text_motion_violations": [],
+  "layout": {
+    "sampledFrames": 13,
+    "textAndBrandCollisions": []
+  },
+  "dark_theme_checks": [
+    {
+      "time": 1.4,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 3.65,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 5.8,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 7.65,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 9.6,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 11.95,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 13.25,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 14.9,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 16.9,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 20.3,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 21.65,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 22.8,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 25.8,
+      "theme": "dark",
+      "background": [
+        23,
+        16,
+        55,
+        255
+      ]
+    }
+  ],
+  "brand": [
+    {
+      "path": "assets/brand/clean/cryptovolk-logo.png",
+      "sha256": "f0acb184167afb6874f002b3286fddcddcfd0c37a4ba78b909856db747c5051d",
+      "alpha": "passed"
+    },
+    {
+      "path": "assets/brand/clean/scan-ai-plate.png",
+      "sha256": "4c420c3ddf3674c730ea0973de13df892999790d5e1aaeff5ea2c527c59f2675",
+      "alpha": "passed"
+    }
+  ],
+  "barrel": {
+    "path": "assets/commodities/oil-barrel.png",
+    "sha256": "9722e33e6a0e00babffd1628e43e4463374a3d53a64a14a687b367d42df51b7c",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_corners": true,
+    "origin": "New photoreal compositing layer using the supplied barrel as a visual reference; no brand marks generated."
+  },
+  "drawn_images": [
+    "/assets/brand/clean/cryptovolk-logo.png",
+    "/assets/brand/clean/scan-ai-plate.png",
+    "/assets/commodities/oil-barrel.png"
+  ],
+  "demo_setup": {
+    "asset": "BRENT",
+    "ticker": "XBRUSD",
+    "side": "SHORT",
+    "entry": 78.4,
+    "stop": 79.6,
+    "targets": [
+      76.2,
+      75,
+      73.8
+    ],
+    "min": 72.8,
+    "max": 81,
+    "fvg": [
+      78.8,
+      79.1
+    ],
+    "orderBlock": [
+      79.15,
+      79.45
+    ],
+    "demo": true
+  },
+  "actual_rendered_short_levels": [
+    {
+      "y": 988.0487804878046,
+      "color": "rgba(95, 205, 201, 0.533)"
+    },
+    {
+      "y": 1086.2439024390242,
+      "color": "rgba(114, 227, 178, 0.533)"
+    },
+    {
+      "y": 934.487804878049,
+      "color": "#ff7089"
+    }
+  ],
+  "speech_cues": [
+    {
+      "time": 1.4,
+      "phase": "oil-hook",
+      "text": "СЛИВАЕТСЯ?"
+    },
+    {
+      "time": 3.65,
+      "phase": "forecast",
+      "text": "ПРОГНОЗ."
+    },
+    {
+      "time": 5.8,
+      "phase": "plan",
+      "text": "СДЕЛКИ."
+    },
+    {
+      "time": 7.65,
+      "phase": "ai-bot",
+      "text": "AI-БОТА."
+    },
+    {
+      "time": 9.6,
+      "phase": "ai-analysis",
+      "text": "ГРАФИК."
+    },
+    {
+      "time": 11.95,
+      "phase": "setup-entry",
+      "text": "ВХОД."
+    },
+    {
+      "time": 13.25,
+      "phase": "setup-target",
+      "text": "ЦЕЛЬ."
+    },
+    {
+      "time": 14.9,
+      "phase": "setup-risk",
+      "text": "РИСК."
+    },
+    {
+      "time": 16.9,
+      "phase": "telegram",
+      "text": "В TELEGRAM."
+    },
+    {
+      "time": 21.65,
+      "phase": "free",
+      "text": "БЕСПЛАТНО"
+    },
+    {
+      "time": 25.8,
+      "phase": "final-cta",
+      "text": "НЕФТЬ."
+    }
+  ],
+  "source_audio_alignment": "passed; 40ms acoustic grid; independent of previous ads",
+  "previous_videos_preserved": [
+    {
+      "path": "output/crypto-volk-motion-final.mp4",
+      "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-clarity.mp4",
+      "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum-dark.mp4",
+      "sha256": "57a252da5210e1dbd1f55bc2d14af741e141746a7cc8e307f37badfc5394a5c8"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum.mp4",
+      "sha256": "3771bb2e09c37b868428e7b9b1b45822283558a3e6622271fa959f9e4e1477f5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-product.mp4",
+      "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+    }
+  ],
+  "javascript_errors": []
+}

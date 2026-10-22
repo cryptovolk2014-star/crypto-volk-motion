@@ -1,0 +1,382 @@
+{
+  "audio": "assets/audio/scan-ai-oil.mp3",
+  "audio_sha256": "64d7e5ed6b4148ee123e9d23c2d3873e2694ebb9c260945efb2a9746251ed8a9",
+  "decoded_audio_duration": 24.76408163265306,
+  "asr_time_grid_seconds": 0.04,
+  "method": "Independent Russian CTC character timestamps from the newly supplied oil recording. Canonical AI / Telegram spelling restored. 40 ms acoustic grid, 30 fps render; no old cue times reused.",
+  "script_source": "Transcribed directly from the new voiceover. The opening visual hook is separately requested in the pasted brief, not extra synthesized speech.",
+  "words": [
+    {
+      "word": "а",
+      "start": 0.12,
+      "end": 0.16
+    },
+    {
+      "word": "что",
+      "start": 0.28,
+      "end": 0.44
+    },
+    {
+      "word": "если",
+      "start": 0.56,
+      "end": 0.8
+    },
+    {
+      "word": "бы",
+      "start": 0.88,
+      "end": 0.96
+    },
+    {
+      "word": "ты",
+      "start": 1.04,
+      "end": 1.12
+    },
+    {
+      "word": "мог",
+      "start": 1.2,
+      "end": 1.32
+    },
+    {
+      "word": "заранее",
+      "start": 1.44,
+      "end": 1.84
+    },
+    {
+      "word": "увидеть",
+      "start": 1.92,
+      "end": 2.24
+    },
+    {
+      "word": "не",
+      "start": 2.32,
+      "end": 2.4
+    },
+    {
+      "word": "просто",
+      "start": 2.48,
+      "end": 2.72
+    },
+    {
+      "word": "прогноз",
+      "start": 2.8,
+      "end": 3.12
+    },
+    {
+      "word": "по",
+      "start": 3.24,
+      "end": 3.32
+    },
+    {
+      "word": "нефти",
+      "start": 3.4,
+      "end": 3.6
+    },
+    {
+      "word": "а",
+      "start": 3.96,
+      "end": 4.0
+    },
+    {
+      "word": "целый",
+      "start": 4.12,
+      "end": 4.44
+    },
+    {
+      "word": "план",
+      "start": 4.6,
+      "end": 4.88
+    },
+    {
+      "word": "возможной",
+      "start": 5.0,
+      "end": 5.48
+    },
+    {
+      "word": "сделки",
+      "start": 5.56,
+      "end": 5.88
+    },
+    {
+      "word": "мы",
+      "start": 6.36,
+      "end": 6.44
+    },
+    {
+      "word": "создали",
+      "start": 6.6,
+      "end": 6.96
+    },
+    {
+      "word": "AI",
+      "start": 7.12,
+      "end": 7.52
+    },
+    {
+      "word": "бота",
+      "start": 7.6,
+      "end": 7.88
+    },
+    {
+      "word": "который",
+      "start": 8.0,
+      "end": 8.32
+    },
+    {
+      "word": "за",
+      "start": 8.4,
+      "end": 8.48
+    },
+    {
+      "word": "тебя",
+      "start": 8.56,
+      "end": 8.72
+    },
+    {
+      "word": "разбирает",
+      "start": 8.8,
+      "end": 9.2
+    },
+    {
+      "word": "график",
+      "start": 9.32,
+      "end": 9.64
+    },
+    {
+      "word": "и",
+      "start": 9.76,
+      "end": 9.8
+    },
+    {
+      "word": "показывает",
+      "start": 9.88,
+      "end": 10.44
+    },
+    {
+      "word": "где",
+      "start": 10.52,
+      "end": 10.68
+    },
+    {
+      "word": "можно",
+      "start": 10.76,
+      "end": 11.0
+    },
+    {
+      "word": "рассмотреть",
+      "start": 11.08,
+      "end": 11.6
+    },
+    {
+      "word": "вход",
+      "start": 11.68,
+      "end": 11.92
+    },
+    {
+      "word": "какую",
+      "start": 12.12,
+      "end": 12.4
+    },
+    {
+      "word": "цель",
+      "start": 12.52,
+      "end": 12.72
+    },
+    {
+      "word": "поставить",
+      "start": 12.8,
+      "end": 13.28
+    },
+    {
+      "word": "и",
+      "start": 13.4,
+      "end": 13.44
+    },
+    {
+      "word": "где",
+      "start": 13.56,
+      "end": 13.72
+    },
+    {
+      "word": "ограничить",
+      "start": 13.92,
+      "end": 14.52
+    },
+    {
+      "word": "риск",
+      "start": 14.6,
+      "end": 14.84
+    },
+    {
+      "word": "и",
+      "start": 15.16,
+      "end": 15.2
+    },
+    {
+      "word": "всё",
+      "start": 15.32,
+      "end": 15.48
+    },
+    {
+      "word": "это",
+      "start": 15.64,
+      "end": 15.8
+    },
+    {
+      "word": "прямо",
+      "start": 15.96,
+      "end": 16.24
+    },
+    {
+      "word": "в",
+      "start": 16.36,
+      "end": 16.4
+    },
+    {
+      "word": "Telegram",
+      "start": 16.48,
+      "end": 17.0
+    },
+    {
+      "word": "самое",
+      "start": 17.28,
+      "end": 17.56
+    },
+    {
+      "word": "интересное",
+      "start": 17.64,
+      "end": 18.2
+    },
+    {
+      "word": "ты",
+      "start": 18.36,
+      "end": 18.44
+    },
+    {
+      "word": "можешь",
+      "start": 18.52,
+      "end": 18.84
+    },
+    {
+      "word": "получить",
+      "start": 18.88,
+      "end": 19.28
+    },
+    {
+      "word": "три",
+      "start": 19.36,
+      "end": 19.48
+    },
+    {
+      "word": "таких",
+      "start": 19.6,
+      "end": 19.8
+    },
+    {
+      "word": "анализа",
+      "start": 19.92,
+      "end": 20.32
+    },
+    {
+      "word": "абсолютно",
+      "start": 20.48,
+      "end": 21.08
+    },
+    {
+      "word": "бесплатно",
+      "start": 21.2,
+      "end": 21.68
+    },
+    {
+      "word": "выбирай",
+      "start": 22.04,
+      "end": 22.4
+    },
+    {
+      "word": "нефть",
+      "start": 22.52,
+      "end": 22.76
+    },
+    {
+      "word": "и",
+      "start": 22.88,
+      "end": 22.92
+    },
+    {
+      "word": "посмотри",
+      "start": 23.04,
+      "end": 23.48
+    },
+    {
+      "word": "что",
+      "start": 23.6,
+      "end": 23.76
+    },
+    {
+      "word": "покажет",
+      "start": 23.88,
+      "end": 24.28
+    },
+    {
+      "word": "бот",
+      "start": 24.36,
+      "end": 24.56
+    }
+  ],
+  "phrases": [
+    {
+      "text": "А что, если бы ты мог заранее увидеть",
+      "start": 0,
+      "end": 2.32
+    },
+    {
+      "text": "Не просто прогноз по нефти",
+      "start": 2.32,
+      "end": 3.96
+    },
+    {
+      "text": "А целый план возможной сделки?",
+      "start": 3.96,
+      "end": 6.36
+    },
+    {
+      "text": "Мы создали AI-бота, который за тебя разбирает график",
+      "start": 6.36,
+      "end": 9.76
+    },
+    {
+      "text": "И показывает, где можно рассмотреть вход",
+      "start": 9.76,
+      "end": 12.12
+    },
+    {
+      "text": "Какую цель поставить",
+      "start": 12.12,
+      "end": 13.4
+    },
+    {
+      "text": "И где ограничить риск",
+      "start": 13.4,
+      "end": 15.16
+    },
+    {
+      "text": "И всё это прямо в Telegram.",
+      "start": 15.16,
+      "end": 17.28
+    },
+    {
+      "text": "Самое интересное: ты можешь получить",
+      "start": 17.28,
+      "end": 19.36
+    },
+    {
+      "text": "Три таких анализа абсолютно бесплатно.",
+      "start": 19.36,
+      "end": 22.04
+    },
+    {
+      "text": "Выбирай нефть и посмотри, что покажет бот.",
+      "start": 22.04,
+      "end": 24.7640625
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "composition": "scan-ai-oil",
+  "file": "output/crypto-volk-scan-ai-oil.mp4",
+  "bytes": 6492663,
+  "sha256": "9a4965b1a3be281a5e5baf6d59ef3afd0b1b7ec4195c29eccd662939d324d2a6",
+  "duration": 26.7,
+  "frames": 801,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "full_decode": "passed",
+  "voice": {
+    "source_duration": 24.76408163265306,
+    "best_lag_samples_at_8khz": 0,
+    "correlation": 0.9999682742089219,
+    "silence_hold_peak": 0,
+    "music_added": false
+  },
+  "encoded_frame_checks": [
+    {
+      "frame": 42,
+      "time": 1.4,
+      "mean_pixel_difference": 1.3758492476851851
+    },
+    {
+      "frame": 110,
+      "time": 3.6666666666666665,
+      "mean_pixel_difference": 1.146803465792181
+    },
+    {
+      "frame": 174,
+      "time": 5.8,
+      "mean_pixel_difference": 1.1690385480967078
+    },
+    {
+      "frame": 230,
+      "time": 7.666666666666667,
+      "mean_pixel_difference": 1.2561755722736625
+    },
+    {
+      "frame": 288,
+      "time": 9.6,
+      "mean_pixel_difference": 1.2901884002057613
+    },
+    {
+      "frame": 359,
+      "time": 11.966666666666667,
+      "mean_pixel_difference": 1.1414366319444444
+    },
+    {
+      "frame": 398,
+      "time": 13.266666666666667,
+      "mean_pixel_difference": 1.1733447466563787
+    },
+    {
+      "frame": 447,
+      "time": 14.9,
+      "mean_pixel_difference": 1.2399062821502058
+    },
+    {
+      "frame": 507,
+      "time": 16.9,
+      "mean_pixel_difference": 1.2381520061728395
+    },
+    {
+      "frame": 609,
+      "time": 20.3,
+      "mean_pixel_difference": 1.1453041409465021
+    },
+    {
+      "frame": 650,
+      "time": 21.666666666666668,
+      "mean_pixel_difference": 1.1870235339506172
+    },
+    {
+      "frame": 684,
+      "time": 22.8,
+      "mean_pixel_difference": 1.2669661458333332
+    },
+    {
+      "frame": 774,
+      "time": 25.8,
+      "mean_pixel_difference": 1.236466210133745
+    },
+    {
+      "frame": 59,
+      "time": 1.9666666666666666,
+      "mean_pixel_difference": 1.4243844843106996
+    },
+    {
+      "frame": 122,
+      "time": 4.066666666666666,
+      "mean_pixel_difference": 1.1732802854938271
+    },
+    {
+      "frame": 195,
+      "time": 6.5,
+      "mean_pixel_difference": 1.1996598508230452
+    },
+    {
+      "frame": 320,
+      "time": 10.666666666666666,
+      "mean_pixel_difference": 1.2536651234567902
+    },
+    {
+      "frame": 459,
+      "time": 15.3,
+      "mean_pixel_difference": 1.2688342335390947
+    },
+    {
+      "frame": 523,
+      "time": 17.433333333333334,
+      "mean_pixel_difference": 1.174869630915638
+    },
+    {
+      "frame": 665,
+      "time": 22.166666666666668,
+      "mean_pixel_difference": 1.1727462705761318
+    }
+  ],
+  "browser_playback": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 26.7,
+    "readyState": 4,
+    "currentTime": 25.820458
+  },
+  "http_range_status": 206,
+  "javascript_errors": []
+}

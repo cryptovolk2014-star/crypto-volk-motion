@@ -1,0 +1,190 @@
+{
+  "id": "scan-ai-oil",
+  "title": "Crypto Volk Scan AI — Нефть / DARK",
+  "page": "composition.html?composition=scan-ai-oil",
+  "module": "compositions/scan-ai-oil.js",
+  "audio": "assets/audio/scan-ai-oil.mp3",
+  "envelope": "assets/audio/scan-ai-oil-envelope.json",
+  "audioDuration": 24.76408163265306,
+  "duration": 26.7,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "output": "output/crypto-volk-scan-ai-oil.mp4",
+  "previewDirectory": "output/scan-ai-oil",
+  "alignment": "compositions/scan-ai-oil-words.json",
+  "themeMode": "dark",
+  "finalHoldExplanation": "New source audio preserved in full (24.76408163265306s); 1.9359183673469396s silent final CTA hold. No music, speed change or added speech.",
+  "scenes": [
+    {
+      "id": "hook",
+      "name": "Нефть сливается?",
+      "start": 0,
+      "end": 1.92,
+      "preview": 1.4
+    },
+    {
+      "id": "forecast",
+      "name": "Не просто прогноз",
+      "start": 1.92,
+      "end": 3.96,
+      "preview": 3.65
+    },
+    {
+      "id": "plan",
+      "name": "План возможной сделки",
+      "start": 3.96,
+      "end": 6.36,
+      "preview": 5.8
+    },
+    {
+      "id": "analysis",
+      "name": "AI разбирает график",
+      "start": 6.36,
+      "end": 10.52,
+      "preview": 9.6
+    },
+    {
+      "id": "levels",
+      "name": "Вход, цель, риск",
+      "start": 10.52,
+      "end": 15.16,
+      "preview": 14.9
+    },
+    {
+      "id": "telegram",
+      "name": "Прямо в Telegram",
+      "start": 15.16,
+      "end": 17.28,
+      "preview": 16.9
+    },
+    {
+      "id": "offer",
+      "name": "Три анализа бесплатно",
+      "start": 17.28,
+      "end": 22.04,
+      "preview": 21.65
+    },
+    {
+      "id": "cta",
+      "name": "Выбирай нефть",
+      "start": 22.04,
+      "end": 26.7,
+      "preview": 25.8
+    }
+  ],
+  "previews": [
+    {
+      "id": "01-oil-hook",
+      "time": 1.4
+    },
+    {
+      "id": "02-forecast",
+      "time": 3.65
+    },
+    {
+      "id": "03-trading-plan",
+      "time": 5.8
+    },
+    {
+      "id": "04-ai-bot",
+      "time": 7.65
+    },
+    {
+      "id": "05-scan-chart",
+      "time": 9.6
+    },
+    {
+      "id": "06-entry",
+      "time": 11.95
+    },
+    {
+      "id": "07-target",
+      "time": 13.25
+    },
+    {
+      "id": "08-risk",
+      "time": 14.9
+    },
+    {
+      "id": "09-telegram",
+      "time": 16.9
+    },
+    {
+      "id": "10-three-analyses",
+      "time": 20.3
+    },
+    {
+      "id": "11-free",
+      "time": 21.65
+    },
+    {
+      "id": "12-choose-oil",
+      "time": 22.8
+    },
+    {
+      "id": "13-final-cta",
+      "time": 25.8
+    }
+  ],
+  "cues": {
+    "hook": 0,
+    "forecast": 1.92,
+    "plan": 3.96,
+    "bot": 6.36,
+    "scan": 8.8,
+    "entry": 11.68,
+    "target": 12.52,
+    "risk": 14.6,
+    "telegram": 16.48,
+    "three": 19.36,
+    "free": 21.2,
+    "choose": 22.04,
+    "riskAction": 13.92
+  },
+  "setup": {
+    "asset": "BRENT",
+    "ticker": "XBRUSD",
+    "side": "SHORT",
+    "entry": 78.4,
+    "stop": 79.6,
+    "targets": [
+      76.2,
+      75,
+      73.8
+    ],
+    "min": 72.8,
+    "max": 81,
+    "fvg": [
+      78.8,
+      79.1
+    ],
+    "orderBlock": [
+      79.15,
+      79.45
+    ],
+    "demo": true
+  },
+  "preservedComposition": [
+    {
+      "path": "output/crypto-volk-motion-final.mp4",
+      "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-clarity.mp4",
+      "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum-dark.mp4",
+      "sha256": "57a252da5210e1dbd1f55bc2d14af741e141746a7cc8e307f37badfc5394a5c8"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum.mp4",
+      "sha256": "3771bb2e09c37b868428e7b9b1b45822283558a3e6622271fa959f9e4e1477f5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-product.mp4",
+      "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+    }
+  ]
+}
