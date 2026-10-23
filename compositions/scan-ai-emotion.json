@@ -1,0 +1,306 @@
+{
+  "id": "scan-ai-emotion",
+  "title": "Crypto Volk Scan AI — От сомнений к ясности",
+  "page": "composition.html?composition=scan-ai-emotion",
+  "module": "compositions/scan-ai-emotion.js",
+  "audio": "assets/audio/scan-ai-emotion.mp3",
+  "envelope": "assets/audio/scan-ai-emotion-envelope.json",
+  "audioDuration": 37.48571428571429,
+  "duration": 39.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "output": "output/crypto-volk-scan-ai-emotion.mp4",
+  "previewDirectory": "output/scan-ai-emotion",
+  "alignment": "compositions/scan-ai-emotion-words.json",
+  "finalHoldExplanation": "Complete new voice recording 37.48571428571429s, then 2.0142857142857125s silent CTA hold; no music, extra speech or voice speed changes.",
+  "scenes": [
+    {
+      "id": "problem",
+      "name": "Трейдер / неопределённость",
+      "start": 0,
+      "end": 5.64,
+      "preview": 5.3
+    },
+    {
+      "id": "minute",
+      "name": "Меньше одной минуты",
+      "start": 5.64,
+      "end": 9.44,
+      "preview": 9.36
+    },
+    {
+      "id": "pair",
+      "name": "Выбор валютной пары",
+      "start": 9.44,
+      "end": 13.16,
+      "preview": 12.8
+    },
+    {
+      "id": "mode",
+      "name": "Выбор срока торговли",
+      "start": 13.16,
+      "end": 15.72,
+      "preview": 15.35
+    },
+    {
+      "id": "analysis",
+      "name": "AI анализирует рынок",
+      "start": 15.72,
+      "end": 18.92,
+      "preview": 18.4
+    },
+    {
+      "id": "setup",
+      "name": "Направление, вход, стоп, цели, логика",
+      "start": 18.92,
+      "end": 26.64,
+      "preview": 26.1
+    },
+    {
+      "id": "clarity",
+      "name": "Эмоция / понятная логика",
+      "start": 26.64,
+      "end": 30.6,
+      "preview": 30.1
+    },
+    {
+      "id": "offer",
+      "name": "3 анализа бесплатно",
+      "start": 30.6,
+      "end": 34.96,
+      "preview": 34.7
+    },
+    {
+      "id": "cta",
+      "name": "Попробуй и оцени",
+      "start": 34.96,
+      "end": 39.5,
+      "preview": 38.6
+    }
+  ],
+  "previews": [
+    {
+      "id": "01-trader-doubt",
+      "time": 2.1
+    },
+    {
+      "id": "02-buy",
+      "time": 3.25
+    },
+    {
+      "id": "03-sell",
+      "time": 4.05
+    },
+    {
+      "id": "04-wait",
+      "time": 5.3
+    },
+    {
+      "id": "05-timer-dark",
+      "time": 7.9
+    },
+    {
+      "id": "06-dark-light-scan",
+      "time": 8.6
+    },
+    {
+      "id": "07-minute-light",
+      "time": 9.36
+    },
+    {
+      "id": "08-open-scan-ai",
+      "time": 10.9
+    },
+    {
+      "id": "09-pair-selection",
+      "time": 12.8
+    },
+    {
+      "id": "10-short-term",
+      "time": 13.8
+    },
+    {
+      "id": "11-medium-term",
+      "time": 15.35
+    },
+    {
+      "id": "12-ai-analysis",
+      "time": 18.4
+    },
+    {
+      "id": "13-direction",
+      "time": 21.6
+    },
+    {
+      "id": "14-entry",
+      "time": 22.65
+    },
+    {
+      "id": "15-stop",
+      "time": 23.45
+    },
+    {
+      "id": "16-take-profits",
+      "time": 24.4
+    },
+    {
+      "id": "17-explanation",
+      "time": 26.1
+    },
+    {
+      "id": "18-no-guesses",
+      "time": 27.6
+    },
+    {
+      "id": "19-clear-logic",
+      "time": 30.1
+    },
+    {
+      "id": "20-three-analyses",
+      "time": 32.8
+    },
+    {
+      "id": "21-free",
+      "time": 34.7
+    },
+    {
+      "id": "22-final-cta",
+      "time": 38.6
+    }
+  ],
+  "themeTransition": {
+    "start": 8.2,
+    "end": 9.32,
+    "word": "меньше одной минуты",
+    "dark": "#050718",
+    "light": "#F3EFE9"
+  },
+  "cues": {
+    "buy": 2.8,
+    "sell": 3.48,
+    "wait": 4.8,
+    "less": 8.2,
+    "minute": 8.88,
+    "open": 9.44,
+    "pairs": 11.76,
+    "pairClick": 12.45,
+    "shortTerm": 13.16,
+    "mediumTerm": 14.28,
+    "modeClick": 15.12,
+    "analysis": 15.72,
+    "scan": 17.24,
+    "setup": 18.92,
+    "direction": 20.72,
+    "entry": 22.32,
+    "stop": 22.8,
+    "targets": 23.64,
+    "explain": 24.64,
+    "noGuesses": 26.64,
+    "logic": 29.4,
+    "three": 31.84,
+    "free": 34.2,
+    "tryProduct": 34.96
+  },
+  "setup": {
+    "asset": "EUR/USD",
+    "market": "FOREX",
+    "side": "LONG",
+    "entry": 1.085,
+    "stop": 1.082,
+    "targets": [
+      1.088,
+      1.091,
+      1.094
+    ],
+    "fvg": [
+      1.0859,
+      1.08686
+    ],
+    "orderBlock": [
+      1.0829,
+      1.08395
+    ],
+    "min": 1.0805,
+    "max": 1.0955,
+    "demo": true
+  },
+  "videoClips": {
+    "despair": {
+      "path": "assets/video/trader-despair.mp4",
+      "start": 0,
+      "end": 5.64,
+      "sourceIn": 0.08,
+      "rate": 0.86,
+      "crop": {
+        "x": 0,
+        "y": 150,
+        "w": 1080,
+        "h": 1104
+      },
+      "box": {
+        "x": 80,
+        "y": 620,
+        "w": 920,
+        "h": 940
+      },
+      "faceSourceBounds": {
+        "left": 395,
+        "top": 465,
+        "right": 810,
+        "bottom": 1040
+      }
+    },
+    "joy": {
+      "path": "assets/video/trader-joy.mp4",
+      "start": 26.64,
+      "end": 30.6,
+      "sourceIn": 0.45,
+      "rate": 1,
+      "crop": {
+        "x": 180,
+        "y": 200,
+        "w": 900,
+        "h": 802
+      },
+      "box": {
+        "x": 80,
+        "y": 690,
+        "w": 920,
+        "h": 820
+      },
+      "faceSourceBounds": {
+        "left": 345,
+        "top": 210,
+        "right": 760,
+        "bottom": 740
+      }
+    }
+  },
+  "preservedComposition": [
+    {
+      "path": "output/crypto-volk-motion-final.mp4",
+      "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-clarity.mp4",
+      "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum-dark.mp4",
+      "sha256": "57a252da5210e1dbd1f55bc2d14af741e141746a7cc8e307f37badfc5394a5c8"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum.mp4",
+      "sha256": "3771bb2e09c37b868428e7b9b1b45822283558a3e6622271fa959f9e4e1477f5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-oil.mp4",
+      "sha256": "9a4965b1a3be281a5e5baf6d59ef3afd0b1b7ec4195c29eccd662939d324d2a6"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-product.mp4",
+      "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+    }
+  ]
+}

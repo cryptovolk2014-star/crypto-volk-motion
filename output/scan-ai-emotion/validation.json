@@ -1,0 +1,403 @@
+{
+  "composition": "scan-ai-emotion",
+  "frames": 1185,
+  "minimum_font_px": 36,
+  "text_draw_calls": 19549,
+  "fonts": [
+    {
+      "family": "Montserrat",
+      "status": "loaded"
+    },
+    {
+      "family": "RobotoMono",
+      "status": "loaded"
+    }
+  ],
+  "scenes": [
+    "problem",
+    "minute",
+    "pair",
+    "mode",
+    "analysis",
+    "setup",
+    "clarity",
+    "offer",
+    "cta"
+  ],
+  "critical_text_safe_bounds": [
+    62,
+    300,
+    1018,
+    1672
+  ],
+  "safe_area_violations": [],
+  "mixed_alphabet_words": [],
+  "face_text_collisions": [],
+  "settled_text_motion_violations": [],
+  "layout": {
+    "sampledFrames": 22,
+    "textAndBrandCollisions": []
+  },
+  "themeChecks": [
+    {
+      "time": 7.9,
+      "theme": "dark",
+      "pixel": [
+        23,
+        16,
+        55,
+        255
+      ]
+    },
+    {
+      "time": 8.6,
+      "theme": "transition",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 9.4,
+      "theme": "light",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 12.8,
+      "theme": "light",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 18.4,
+      "theme": "light",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 26.1,
+      "theme": "light",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 30.1,
+      "theme": "light",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    },
+    {
+      "time": 38.6,
+      "theme": "light",
+      "pixel": [
+        243,
+        239,
+        233,
+        255
+      ]
+    }
+  ],
+  "brand": [
+    {
+      "path": "assets/brand/clean/cryptovolk-logo.png",
+      "sha256": "f0acb184167afb6874f002b3286fddcddcfd0c37a4ba78b909856db747c5051d",
+      "alpha": "passed"
+    },
+    {
+      "path": "assets/brand/clean/scan-ai-plate.png",
+      "sha256": "4c420c3ddf3674c730ea0973de13df892999790d5e1aaeff5ea2c527c59f2675",
+      "alpha": "passed"
+    }
+  ],
+  "drawn_sources": [
+    "/assets/brand/clean/cryptovolk-logo.png",
+    "/assets/brand/clean/scan-ai-plate.png",
+    "/assets/video/trader-despair.mp4",
+    "/assets/video/trader-joy.mp4"
+  ],
+  "demo_setup": {
+    "asset": "EUR/USD",
+    "market": "FOREX",
+    "side": "LONG",
+    "entry": 1.085,
+    "stop": 1.082,
+    "targets": [
+      1.088,
+      1.091,
+      1.094
+    ],
+    "fvg": [
+      1.0859,
+      1.08686
+    ],
+    "orderBlock": [
+      1.0829,
+      1.08395
+    ],
+    "min": 1.0805,
+    "max": 1.0955,
+    "demo": true
+  },
+  "actual_rendered_long_levels": [
+    {
+      "y": 1016.4000000000003,
+      "color": "rgba(22, 123, 120, 0.533)"
+    },
+    {
+      "y": 1056.799999999999,
+      "color": "rgba(188, 45, 74, 0.533)"
+    },
+    {
+      "y": 975.9999999999985,
+      "color": "rgba(22, 115, 78, 0.867)"
+    },
+    {
+      "y": 935.5999999999997,
+      "color": "rgba(22, 123, 120, 0.867)"
+    },
+    {
+      "y": 895.1999999999979,
+      "color": "rgba(22, 123, 120, 0.867)"
+    }
+  ],
+  "speech_cues": [
+    {
+      "time": 3.25,
+      "text": "ПОКУПАТЬ?",
+      "phase": "doubt"
+    },
+    {
+      "time": 4.05,
+      "text": "ПРОДАВАТЬ?",
+      "phase": "doubt"
+    },
+    {
+      "time": 5.3,
+      "text": "ЖДАТЬ?",
+      "phase": "doubt"
+    },
+    {
+      "time": 9.4,
+      "text": "1 МИНУТЫ.",
+      "phase": "under-one-minute"
+    },
+    {
+      "time": 12.8,
+      "text": "EUR/USD",
+      "phase": "pair-selection"
+    },
+    {
+      "time": 15.35,
+      "text": "СРЕДНЕСРОЧНАЯ",
+      "phase": "horizon-selection"
+    },
+    {
+      "time": 18.4,
+      "text": "AI АНАЛИЗИРУЕТ",
+      "phase": "ai-analysis"
+    },
+    {
+      "time": 21.6,
+      "text": "LONG",
+      "phase": "direction"
+    },
+    {
+      "time": 22.65,
+      "text": "ENTRY",
+      "phase": "entry"
+    },
+    {
+      "time": 23.45,
+      "text": "STOP LOSS",
+      "phase": "stop-loss"
+    },
+    {
+      "time": 24.4,
+      "text": "TAKE PROFIT 3",
+      "phase": "take-profits"
+    },
+    {
+      "time": 26.1,
+      "text": "ЦЕЛИ: ЗОНЫ ЛИКВИДНОСТИ",
+      "phase": "explanation"
+    },
+    {
+      "time": 27.6,
+      "text": "ДОГАДОК.",
+      "phase": "no-guesses"
+    },
+    {
+      "time": 30.1,
+      "text": "ЛОГИКА.",
+      "phase": "clear-logic"
+    },
+    {
+      "time": 34.7,
+      "text": "БЕСПЛАТНО",
+      "phase": "free-offer"
+    },
+    {
+      "time": 38.6,
+      "text": "И ОЦЕНИ.",
+      "phase": "final-cta"
+    }
+  ],
+  "source_audio_alignment": "passed; independent new-recording 40ms acoustic grid",
+  "video_sources": {
+    "clips": [
+      {
+        "path": "assets/video/trader-despair.mp4",
+        "sha256": "44dcf183d04dc7c569b7f04f59158ede2032909cc14db0768ec084d0f68cf937",
+        "bytes": 2707125,
+        "source": "Original user-uploaded MP4 preserved byte-for-byte",
+        "duration": 5,
+        "fps": 30,
+        "width": 1080,
+        "height": 1920,
+        "audio": false
+      },
+      {
+        "path": "assets/video/trader-joy.mp4",
+        "sha256": "b09d815129c1285e75bf79dddbb70ecb36dbe53d23daa52a9530073f7e6dec7f",
+        "bytes": 2836995,
+        "source": "Original user-uploaded MP4 preserved byte-for-byte",
+        "duration": 5,
+        "fps": 30,
+        "width": 1080,
+        "height": 1920,
+        "audio": false
+      }
+    ],
+    "usage": "Despair opening; joy at clear-analysis narration. Cropping excludes the +12.6% banner in the joy source. No claim of profit or measured AI response time; separate coded UI is a stylized demo."
+  },
+  "independent_video_frame_checks": [
+    {
+      "time": 1.2,
+      "clip": "despair",
+      "sourceFrame": 33,
+      "sourceTime": 1.101,
+      "mean_face_sample_difference": 2.52,
+      "faceBounds": {
+        "left": 416.48148148148147,
+        "right": 770,
+        "top": 888.2065217391305,
+        "bottom": 1377.7898550724638
+      }
+    },
+    {
+      "time": 3.4,
+      "clip": "despair",
+      "sourceFrame": 90,
+      "sourceTime": 3.001,
+      "mean_face_sample_difference": 2.066666666666667,
+      "faceBounds": {
+        "left": 416.48148148148147,
+        "right": 770,
+        "top": 888.2065217391305,
+        "bottom": 1377.7898550724638
+      }
+    },
+    {
+      "time": 5.3,
+      "clip": "despair",
+      "sourceFrame": 139,
+      "sourceTime": 4.634333,
+      "mean_face_sample_difference": 2.3466666666666667,
+      "faceBounds": {
+        "left": 416.48148148148147,
+        "right": 770,
+        "top": 888.2065217391305,
+        "bottom": 1377.7898550724638
+      }
+    },
+    {
+      "time": 27.2,
+      "clip": "joy",
+      "sourceFrame": 30,
+      "sourceTime": 1.000999,
+      "mean_face_sample_difference": 4.213333333333333,
+      "faceBounds": {
+        "left": 248.66666666666666,
+        "right": 672.8888888888889,
+        "top": 700.2244389027431,
+        "bottom": 1242.1197007481296
+      }
+    },
+    {
+      "time": 28.4,
+      "clip": "joy",
+      "sourceFrame": 66,
+      "sourceTime": 2.201,
+      "mean_face_sample_difference": 3.6533333333333333,
+      "faceBounds": {
+        "left": 248.66666666666666,
+        "right": 672.8888888888889,
+        "top": 700.2244389027431,
+        "bottom": 1242.1197007481296
+      }
+    },
+    {
+      "time": 30.1,
+      "clip": "joy",
+      "sourceFrame": 117,
+      "sourceTime": 3.901,
+      "mean_face_sample_difference": 3.7466666666666666,
+      "faceBounds": {
+        "left": 248.66666666666666,
+        "right": 672.8888888888889,
+        "top": 700.2244389027431,
+        "bottom": 1242.1197007481296
+      }
+    }
+  ],
+  "previous_videos_preserved": [
+    {
+      "path": "output/crypto-volk-motion-final.mp4",
+      "sha256": "87e35e8795804e8946d8219099c2ae4743738edb578a7c0890a66255dfa7d02a"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-clarity.mp4",
+      "sha256": "ef779ccf8c24f3e2f4d054239e51e12b255079d4f34b35fce71716db131857a5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum-dark.mp4",
+      "sha256": "57a252da5210e1dbd1f55bc2d14af741e141746a7cc8e307f37badfc5394a5c8"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-ethereum.mp4",
+      "sha256": "3771bb2e09c37b868428e7b9b1b45822283558a3e6622271fa959f9e4e1477f5"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-oil.mp4",
+      "sha256": "9a4965b1a3be281a5e5baf6d59ef3afd0b1b7ec4195c29eccd662939d324d2a6"
+    },
+    {
+      "path": "output/crypto-volk-scan-ai-product.mp4",
+      "sha256": "33f38c1222a6b25ea5cc6230e50768778cbe94c8f44721187e79eeef5f6ffb8e"
+    }
+  ],
+  "javascript_errors": []
+}

@@ -1,0 +1,27 @@
+{
+  "clips": [
+    {
+      "path": "assets/video/trader-despair.mp4",
+      "sha256": "44dcf183d04dc7c569b7f04f59158ede2032909cc14db0768ec084d0f68cf937",
+      "bytes": 2707125,
+      "source": "Original user-uploaded MP4 preserved byte-for-byte",
+      "duration": 5,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": false
+    },
+    {
+      "path": "assets/video/trader-joy.mp4",
+      "sha256": "b09d815129c1285e75bf79dddbb70ecb36dbe53d23daa52a9530073f7e6dec7f",
+      "bytes": 2836995,
+      "source": "Original user-uploaded MP4 preserved byte-for-byte",
+      "duration": 5,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": false
+    }
+  ],
+  "usage": "Despair opening; joy at clear-analysis narration. Cropping excludes the +12.6% banner in the joy source. No claim of profit or measured AI response time; separate coded UI is a stylized demo."
+}

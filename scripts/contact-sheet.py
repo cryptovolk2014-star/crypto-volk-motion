@@ -8,6 +8,7 @@ config=json.loads((root/'compositions'/f'{args.composition}.json').read_text())
 directory=root/config['previewDirectory'];items=config['previews']
 font=ImageFont.truetype(str(root/'assets/fonts/RobotoMono.ttf'),18)
 sets=[('contact-sheet',items,4)]
+if args.composition=='scan-ai-emotion':sets.append(('dark-light-transition',[items[i] for i in [4,5,6]],3))
 if args.composition=='scan-ai-oil':sets.append(('oil-to-analysis',[items[i] for i in [0,2,4,7,10,12]],3))
 for name,selected,cols in sets:
     width,height,gap=270,480,24

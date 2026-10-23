@@ -62,3 +62,14 @@ output/scan-ai-oil/*
 !output/scan-ai-oil/validation.json
 !output/scan-ai-oil/media-validation.json
 !output/scan-ai-oil/[0-9][0-9]-*.png
+
+# Emotion / Forex: final film and reviewed previews only.
+!output/crypto-volk-scan-ai-emotion.mp4
+!output/scan-ai-emotion/
+output/scan-ai-emotion/*
+!output/scan-ai-emotion/contact-sheet.jpg
+!output/scan-ai-emotion/dark-light-transition.jpg
+!output/scan-ai-emotion/validation.json
+!output/scan-ai-emotion/media-validation.json
+!output/scan-ai-emotion/[0-9][0-9]-*.png
+!output/scan-ai-emotion/player-regression.json

@@ -1,5 +1,27 @@
 # Crypto Volk Motion Engine
 
+## Новый ролик: От сомнений к ясности / Scan AI
+
+**39,5 с · 1080×1920 · 30 fps.** Два оригинальных видео трейдера, новая озвучка, переход DARK → LIGHT на фразе «меньше одной минуты» и непрерывная демонстрация EUR/USD: выбор пары → срок торговли → AI-анализ → вход, стоп, цели и логика. Предыдущие ролики сохранены.
+
+```sh
+npm ci --cache .npm-cache
+npm start
+```
+
+Просмотр: `http://localhost:4173/composition.html?composition=scan-ai-emotion`.
+
+```sh
+npm run check:emotion
+npm run stills:emotion
+npm run render:emotion
+npm run check:emotion:media
+```
+
+MP4: `output/crypto-volk-scan-ai-emotion.mp4`. Превью: `output/scan-ai-emotion/`. Таймлайн: `compositions/scan-ai-emotion.json`. Инструкции, редактирование сцен и отчёт: [docs/scan-ai-emotion.md](docs/scan-ai-emotion.md). Нужны Node.js, Chromium и FFmpeg; для контактного листа — Python + Pillow (`python scripts/contact-sheet.py --composition=scan-ai-emotion`).
+
+---
+
 ## Новый ролик: Нефть / Scan AI / DARK
 
 **26,7 с · 1080×1920 · 30 fps.** Новый нефтяной хук, новая озвучка и демонстрация плана сделки в тёмном премиальном стиле первых роликов. Вход, цель и риск раскрываются по речи; финал предлагает три бесплатных анализа. Все предыдущие версии сохранены.

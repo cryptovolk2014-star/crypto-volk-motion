@@ -1,0 +1,32 @@
+[
+  {
+    "composition": "scan-ai-oil",
+    "time": 1.4,
+    "pixel_identical": true
+  },
+  {
+    "composition": "scan-ai-oil",
+    "time": 9.6,
+    "pixel_identical": true
+  },
+  {
+    "composition": "scan-ai-oil",
+    "time": 14.9,
+    "pixel_identical": true
+  },
+  {
+    "composition": "scan-ai-oil",
+    "time": 25.8,
+    "pixel_identical": true
+  },
+  {
+    "composition": "scan-ai-clarity",
+    "time": 19,
+    "pixel_identical": true
+  },
+  {
+    "composition": "scan-ai-clarity",
+    "time": 45.5,
+    "pixel_identical": true
+  }
+]

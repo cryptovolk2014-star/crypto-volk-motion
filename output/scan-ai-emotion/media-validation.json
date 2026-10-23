@@ -1,0 +1,182 @@
+{
+  "composition": "scan-ai-emotion",
+  "file": "output/crypto-volk-scan-ai-emotion.mp4",
+  "bytes": 9567257,
+  "sha256": "86eafae317df65cd75c98d880de454f24569fabb5253f0f2e9b8846143e342c3",
+  "duration": 39.5,
+  "frames": 1185,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "full_decode": "passed",
+  "voice": {
+    "source_duration": 37.48571428571429,
+    "best_lag_samples_at_8khz": 0,
+    "correlation": 0.9999714544410583,
+    "silence_hold_peak": 0,
+    "music_added": false
+  },
+  "encoded_frame_checks": [
+    {
+      "frame": 63,
+      "time": 2.1,
+      "mean_pixel_difference": 1.4018621399176954
+    },
+    {
+      "frame": 98,
+      "time": 3.2666666666666666,
+      "mean_pixel_difference": 1.405946662808642
+    },
+    {
+      "frame": 122,
+      "time": 4.066666666666666,
+      "mean_pixel_difference": 1.3928059092078189
+    },
+    {
+      "frame": 159,
+      "time": 5.3,
+      "mean_pixel_difference": 1.419311021090535
+    },
+    {
+      "frame": 237,
+      "time": 7.9,
+      "mean_pixel_difference": 1.0878928755144033
+    },
+    {
+      "frame": 258,
+      "time": 8.6,
+      "mean_pixel_difference": 1.2067049254115227
+    },
+    {
+      "frame": 281,
+      "time": 9.366666666666667,
+      "mean_pixel_difference": 1.061424414866255
+    },
+    {
+      "frame": 327,
+      "time": 10.9,
+      "mean_pixel_difference": 1.1305756494341563
+    },
+    {
+      "frame": 384,
+      "time": 12.8,
+      "mean_pixel_difference": 1.1676290830761318
+    },
+    {
+      "frame": 414,
+      "time": 13.8,
+      "mean_pixel_difference": 1.2128110532407408
+    },
+    {
+      "frame": 461,
+      "time": 15.366666666666667,
+      "mean_pixel_difference": 1.220019933127572
+    },
+    {
+      "frame": 552,
+      "time": 18.4,
+      "mean_pixel_difference": 1.194266975308642
+    },
+    {
+      "frame": 648,
+      "time": 21.6,
+      "mean_pixel_difference": 1.1789274691358025
+    },
+    {
+      "frame": 680,
+      "time": 22.666666666666668,
+      "mean_pixel_difference": 1.161776138117284
+    },
+    {
+      "frame": 704,
+      "time": 23.466666666666665,
+      "mean_pixel_difference": 1.194945183899177
+    },
+    {
+      "frame": 732,
+      "time": 24.4,
+      "mean_pixel_difference": 1.300969971707819
+    },
+    {
+      "frame": 783,
+      "time": 26.1,
+      "mean_pixel_difference": 1.3313495048868313
+    },
+    {
+      "frame": 828,
+      "time": 27.6,
+      "mean_pixel_difference": 1.4709910300925926
+    },
+    {
+      "frame": 903,
+      "time": 30.1,
+      "mean_pixel_difference": 1.4702165316358025
+    },
+    {
+      "frame": 984,
+      "time": 32.8,
+      "mean_pixel_difference": 1.0443491190843621
+    },
+    {
+      "frame": 1041,
+      "time": 34.7,
+      "mean_pixel_difference": 1.0800106095679012
+    },
+    {
+      "frame": 1158,
+      "time": 38.6,
+      "mean_pixel_difference": 1.2257881622942386
+    },
+    {
+      "frame": 173,
+      "time": 5.766666666666667,
+      "mean_pixel_difference": 1.3628592785493827
+    },
+    {
+      "frame": 288,
+      "time": 9.6,
+      "mean_pixel_difference": 1.110934927983539
+    },
+    {
+      "frame": 398,
+      "time": 13.266666666666667,
+      "mean_pixel_difference": 1.1586374742798353
+    },
+    {
+      "frame": 475,
+      "time": 15.833333333333334,
+      "mean_pixel_difference": 1.1578769611625515
+    },
+    {
+      "frame": 572,
+      "time": 19.066666666666666,
+      "mean_pixel_difference": 1.1991285686728395
+    },
+    {
+      "frame": 803,
+      "time": 26.766666666666666,
+      "mean_pixel_difference": 1.4100126993312758
+    },
+    {
+      "frame": 922,
+      "time": 30.733333333333334,
+      "mean_pixel_difference": 1.3288228202160495
+    },
+    {
+      "frame": 1053,
+      "time": 35.1,
+      "mean_pixel_difference": 1.1028112139917696
+    }
+  ],
+  "browser_playback": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 39.5,
+    "readyState": 4,
+    "currentTime": 38.612635
+  },
+  "http_range_status": 206,
+  "javascript_errors": []
+}

@@ -26,7 +26,11 @@
     "check:oil": "node scripts/check-oil.mjs",
     "stills:oil": "node scripts/render-composition.mjs --composition=scan-ai-oil --stills",
     "render:oil": "node scripts/render-composition.mjs --composition=scan-ai-oil",
-    "check:oil:media": "node scripts/check-oil-media.mjs"
+    "check:oil:media": "node scripts/check-oil-media.mjs",
+    "check:emotion": "node scripts/check-emotion.mjs",
+    "stills:emotion": "node scripts/render-composition.mjs --composition=scan-ai-emotion --stills",
+    "render:emotion": "node scripts/render-composition.mjs --composition=scan-ai-emotion",
+    "check:emotion:media": "node scripts/check-emotion-media.mjs"
   },
   "repository": {
     "type": "git",
